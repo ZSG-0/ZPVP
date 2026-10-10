@@ -5,7 +5,7 @@ import com.google.gson.JsonObject;
 import com.zpvp.ZPVP;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.GameOptions;
-import net.minecraft.client.option.ParticlesMode;
+import net.minecraft.client.option.SimpleOption;
 
 /** Non-HUD mods: gameplay helpers, performance and misc. */
 public final class Features {
@@ -57,6 +57,11 @@ public final class Features {
 
 		public FpsBoost() { super("fpsboost", "FPS Boost", "Lowers distances, shadows, particles and uncaps FPS", Category.PERFORMANCE, false); }
 
+		private static <E extends Enum<E>> void setEnumOrdinal(SimpleOption<E> opt, int ordinal) {
+			E[] values = opt.getValue().getDeclaringClass().getEnumConstants();
+			opt.setValue(values[Math.max(0, Math.min(ordinal, values.length - 1))]);
+		}
+
 		@Override public void onEnable() {
 			GameOptions o = MinecraftClient.getInstance().options;
 			if (orig == null) {
@@ -64,7 +69,7 @@ public final class Features {
 					o.getViewDistance().getValue(),
 					o.getSimulationDistance().getValue(),
 					o.getEntityShadows().getValue() ? 1 : 0,
-					o.getParticles().getValue().ordinal(),
+					((Enum<?>) o.getParticles().getValue()).ordinal(),
 					o.getBiomeBlendRadius().getValue(),
 					o.getMaxFps().getValue(),
 					o.getEnableVsync().getValue() ? 1 : 0
@@ -73,7 +78,7 @@ public final class Features {
 			o.getViewDistance().setValue(Math.min(8, orig[0]));
 			o.getSimulationDistance().setValue(Math.min(5, orig[1]));
 			o.getEntityShadows().setValue(false);
-			o.getParticles().setValue(ParticlesMode.MINIMAL);
+			setEnumOrdinal(o.getParticles(), 99); // last constant = minimal
 			o.getBiomeBlendRadius().setValue(0);
 			o.getMaxFps().setValue(260);
 			o.getEnableVsync().setValue(false);
@@ -86,7 +91,7 @@ public final class Features {
 			o.getViewDistance().setValue(orig[0]);
 			o.getSimulationDistance().setValue(orig[1]);
 			o.getEntityShadows().setValue(orig[2] == 1);
-			o.getParticles().setValue(ParticlesMode.values()[Math.min(orig[3], ParticlesMode.values().length - 1)]);
+			setEnumOrdinal(o.getParticles(), orig[3]);
 			o.getBiomeBlendRadius().setValue(orig[4]);
 			o.getMaxFps().setValue(orig[5]);
 			o.getEnableVsync().setValue(orig[6] == 1);
