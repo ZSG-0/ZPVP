@@ -9,7 +9,19 @@ jobs:
         with:
           distribution: temurin
           java-version: 21
-      - run: chmod +x gradlew && ./gradlew build
+      - name: Build
+        run: |
+          chmod +x gradlew
+          set +e
+          ./gradlew build --console=plain > build.log 2>&1
+          code=$?
+          if [ $code -ne 0 ]; then
+            msg=$(grep -E "error:|What went wrong|Could not|cannot find symbol|symbol:|location:|Execution failed" -A2 build.log | head -70 | sed 's/%/%25/g' | awk '{printf "%s%%0A",$0}')
+            echo "::error title=BUILD ERRORS::$msg"
+            msg2=$(tail -40 build.log | sed 's/%/%25/g' | awk '{printf "%s%%0A",$0}')
+            echo "::notice title=BUILD TAIL::$msg2"
+          fi
+          exit $code
       - uses: actions/upload-artifact@v4
         with:
           name: zpvp-jar
