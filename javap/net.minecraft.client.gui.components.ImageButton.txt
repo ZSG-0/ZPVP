@@ -1,0 +1,8 @@
+Compiled from "ImageButton.java"
+public class net.minecraft.client.gui.components.ImageButton extends net.minecraft.client.gui.components.Button {
+  protected final net.minecraft.client.gui.components.WidgetSprites sprites;
+  public net.minecraft.client.gui.components.ImageButton(int, int, int, int, net.minecraft.client.gui.components.WidgetSprites, net.minecraft.client.gui.components.Button$OnPress);
+  public net.minecraft.client.gui.components.ImageButton(int, int, net.minecraft.client.gui.components.WidgetSprites, net.minecraft.client.gui.components.Button$OnPress, net.minecraft.network.chat.Component);
+  public net.minecraft.client.gui.components.ImageButton(int, int, int, int, net.minecraft.client.gui.components.WidgetSprites, net.minecraft.client.gui.components.Button$OnPress, net.minecraft.network.chat.Component);
+  public void extractContents(net.minecraft.client.gui.GuiGraphicsExtractor, int, int, float);
+}

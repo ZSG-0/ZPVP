@@ -1,0 +1,740 @@
+src/main/java/com/zpvp/module/Module.java:4: error: cannot find symbol
+src/main/java/com/zpvp/module/Module.java:49: error: cannot find symbol
+src/main/java/com/zpvp/module/TextHudModule.java:3: error: cannot find symbol
+src/main/java/com/zpvp/module/TextHudModule.java:4: error: cannot find symbol
+src/main/java/com/zpvp/module/TextHudModule.java:6: error: package net.minecraft.text does not exist
+src/main/java/com/zpvp/module/TextHudModule.java:7: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModule.java:3: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModule.java:4: error: cannot find symbol
+src/main/java/com/zpvp/module/TextHudModule.java:17: error: cannot find symbol
+src/main/java/com/zpvp/module/TextHudModule.java:19: error: cannot find symbol
+src/main/java/com/zpvp/module/TextHudModule.java:29: error: cannot find symbol
+src/main/java/com/zpvp/module/TextHudModule.java:36: error: cannot find symbol
+src/main/java/com/zpvp/module/TextHudModule.java:41: error: cannot find symbol
+src/main/java/com/zpvp/module/TextHudModule.java:41: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModule.java:31: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModule.java:33: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModule.java:35: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModule.java:35: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModule.java:41: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModule.java:45: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModule.java:49: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModule.java:54: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModule.java:58: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModule.java:58: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:4: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:5: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:6: error: package net.minecraft.client.network does not exist
+src/main/java/com/zpvp/module/HudModules.java:7: error: package net.minecraft.entity does not exist
+src/main/java/com/zpvp/module/HudModules.java:8: error: package net.minecraft.entity.effect does not exist
+src/main/java/com/zpvp/module/HudModules.java:9: error: package net.minecraft.item does not exist
+src/main/java/com/zpvp/module/HudModules.java:23: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:28: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:33: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:41: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:54: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:64: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:69: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:79: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:88: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:96: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:107: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:115: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:115: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:120: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:126: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:128: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:132: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:138: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:138: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:164: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:165: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:179: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:180: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:182: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:182: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:192: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:192: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:198: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:204: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:221: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:222: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:224: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:224: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:228: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:228: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:244: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:244: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:4: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:5: error: package net.minecraft.entity does not exist
+src/main/java/com/zpvp/module/MoreHudModules.java:6: error: package net.minecraft.entity does not exist
+src/main/java/com/zpvp/module/MoreHudModules.java:19: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:27: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:32: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:44: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:53: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:61: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:69: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:77: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:85: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:93: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:101: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:116: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:126: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:7: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:8: error: package net.minecraft.client.option does not exist
+src/main/java/com/zpvp/module/Features.java:9: error: package net.minecraft.client.option does not exist
+src/main/java/com/zpvp/module/Features.java:10: error: package net.minecraft.entity.effect does not exist
+src/main/java/com/zpvp/module/Features.java:11: error: package net.minecraft.entity.effect does not exist
+src/main/java/com/zpvp/module/Features.java:20: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:36: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:63: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:124: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:138: error: cannot find symbol
+src/main/java/com/zpvp/Freelook.java:3: error: cannot find symbol
+src/main/java/com/zpvp/Freelook.java:4: error: package net.minecraft.client.option does not exist
+src/main/java/com/zpvp/Freelook.java:10: error: cannot find symbol
+src/main/java/com/zpvp/Freelook.java:14: error: cannot find symbol
+src/main/java/com/zpvp/Freelook.java:23: error: cannot find symbol
+src/main/java/com/zpvp/Clicks.java:3: error: cannot find symbol
+src/main/java/com/zpvp/Clicks.java:18: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:3: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:4: error: package net.minecraft.client.gui.screen.multiplayer does not exist
+src/main/java/com/zpvp/ui/ZTitleScreen.java:5: error: package net.minecraft.client.gui.screen.option does not exist
+src/main/java/com/zpvp/ui/ZTitleScreen.java:6: error: package net.minecraft.client.gui.screen.world does not exist
+src/main/java/com/zpvp/ui/ZTitleScreen.java:7: error: package net.minecraft.text does not exist
+src/main/java/com/zpvp/ui/ZScreen.java:4: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:5: error: package net.minecraft.client.gui.screen does not exist
+src/main/java/com/zpvp/ui/ZScreen.java:6: error: package net.minecraft.text does not exist
+src/main/java/com/zpvp/ui/ZScreen.java:13: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:41: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:110: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:123: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:14: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:18: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:18: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:39: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:55: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:62: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:71: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:76: error: cannot find symbol
+src/main/java/com/zpvp/ui/UI.java:3: error: package net.minecraft.client.font does not exist
+src/main/java/com/zpvp/ui/UI.java:4: error: cannot find symbol
+src/main/java/com/zpvp/ui/UI.java:42: error: cannot find symbol
+src/main/java/com/zpvp/ui/UI.java:48: error: cannot find symbol
+src/main/java/com/zpvp/ui/UI.java:53: error: cannot find symbol
+src/main/java/com/zpvp/ui/UI.java:58: error: cannot find symbol
+src/main/java/com/zpvp/ui/UI.java:66: error: cannot find symbol
+src/main/java/com/zpvp/ui/UI.java:73: error: cannot find symbol
+src/main/java/com/zpvp/ui/UI.java:73: error: cannot find symbol
+src/main/java/com/zpvp/ui/UI.java:77: error: cannot find symbol
+src/main/java/com/zpvp/ui/UI.java:77: error: cannot find symbol
+src/main/java/com/zpvp/ui/UI.java:86: error: cannot find symbol
+src/main/java/com/zpvp/ui/UI.java:86: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:5: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:6: error: package net.minecraft.client.gui.screen does not exist
+src/main/java/com/zpvp/ui/HudEditorScreen.java:7: error: package net.minecraft.text does not exist
+src/main/java/com/zpvp/ui/HudEditorScreen.java:16: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:21: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:6: error: package net.minecraft.client.font does not exist
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:7: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:8: error: package net.minecraft.client.gui.screen does not exist
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:9: error: package net.minecraft.client.gui.widget does not exist
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:10: error: package net.minecraft.text does not exist
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:31: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:38: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:113: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:127: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:198: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:198: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:225: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:225: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:257: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:257: error: cannot find symbol
+src/main/java/com/zpvp/Logo.java:3: error: cannot find symbol
+src/main/java/com/zpvp/Logo.java:56: error: cannot find symbol
+src/main/java/com/zpvp/HudRenderer.java:6: error: cannot find symbol
+src/main/java/com/zpvp/HudRenderer.java:7: error: cannot find symbol
+src/main/java/com/zpvp/HudRenderer.java:12: error: cannot find symbol
+src/main/java/com/zpvp/CombatTracker.java:4: error: cannot find symbol
+src/main/java/com/zpvp/CombatTracker.java:5: error: package net.minecraft.entity does not exist
+src/main/java/com/zpvp/CombatTracker.java:6: error: cannot find symbol
+src/main/java/com/zpvp/CombatTracker.java:33: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:9: error: package net.fabricmc.fabric.api.client.keybinding.v1 does not exist
+src/main/java/com/zpvp/ZPVP.java:12: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:13: error: package net.minecraft.client.option does not exist
+src/main/java/com/zpvp/ZPVP.java:14: error: package net.minecraft.client.util does not exist
+src/main/java/com/zpvp/ZPVP.java:15: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:24: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:25: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:26: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:52: error: cannot find symbol
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:5: error: cannot find symbol
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:6: error: package net.minecraft.client.font does not exist
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:7: error: cannot find symbol
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:8: error: package net.minecraft.client.gui.widget does not exist
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:9: error: package net.minecraft.client.gui.widget does not exist
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:10: error: package net.minecraft.client.gui.widget does not exist
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:11: error: package net.minecraft.client.gui.widget does not exist
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:21: error: cannot find symbol
+src/main/java/com/zpvp/mixin/EntityMixin.java:4: error: cannot find symbol
+src/main/java/com/zpvp/mixin/EntityMixin.java:5: error: package net.minecraft.entity does not exist
+src/main/java/com/zpvp/mixin/EntityMixin.java:6: error: package net.minecraft.util.math does not exist
+src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:5: error: cannot find symbol
+src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:6: error: package net.minecraft.client.gui.screen does not exist
+src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:7: error: package net.minecraft.client.gui.screen does not exist
+src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:16: error: cannot find symbol
+src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:16: error: cannot find symbol
+src/main/java/com/zpvp/mixin/DrawContextMixin.java:4: error: cannot find symbol
+src/main/java/com/zpvp/mixin/DrawContextMixin.java:5: error: cannot find symbol
+src/main/java/com/zpvp/mixin/DrawContextMixin.java:6: error: package net.minecraft.client.gui.screen.ingame does not exist
+src/main/java/com/zpvp/mixin/CameraMixin.java:4: error: package net.minecraft.client.render does not exist
+src/main/java/com/zpvp/mixin/ScreenMixin.java:5: error: cannot find symbol
+src/main/java/com/zpvp/mixin/ScreenMixin.java:6: error: cannot find symbol
+src/main/java/com/zpvp/mixin/ScreenMixin.java:7: error: package net.minecraft.client.gui.screen does not exist
+src/main/java/com/zpvp/mixin/ScreenMixin.java:17: error: cannot find symbol
+src/main/java/com/zpvp/mixin/HandledScreenMixin.java:6: error: cannot find symbol
+src/main/java/com/zpvp/mixin/HandledScreenMixin.java:7: error: package net.minecraft.client.gui.screen.ingame does not exist
+src/main/java/com/zpvp/mixin/HandledScreenMixin.java:8: error: package net.minecraft.client.gui.screen.ingame does not exist
+src/main/java/com/zpvp/mixin/HandledScreenMixin.java:9: error: package net.minecraft.client.gui.screen.ingame does not exist
+src/main/java/com/zpvp/mixin/HandledScreenMixin.java:10: error: package net.minecraft.screen does not exist
+src/main/java/com/zpvp/mixin/HandledScreenMixin.java:11: error: package net.minecraft.screen.slot does not exist
+src/main/java/com/zpvp/mixin/HandledScreenMixin.java:21: error: cannot find symbol
+src/main/java/com/zpvp/mixin/HandledScreenMixin.java:29: error: cannot find symbol
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:18: error: cannot find symbol
+src/main/java/com/zpvp/mixin/EntityMixin.java:13: error: cannot find symbol
+src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:12: error: cannot find symbol
+src/main/java/com/zpvp/mixin/DrawContextMixin.java:12: error: cannot find symbol
+src/main/java/com/zpvp/mixin/CameraMixin.java:10: error: cannot find symbol
+src/main/java/com/zpvp/mixin/ScreenMixin.java:14: error: cannot find symbol
+src/main/java/com/zpvp/mixin/HandledScreenMixin.java:20: error: cannot find symbol
+src/main/java/com/zpvp/module/TextHudModule.java:20: error: cannot find symbol
+src/main/java/com/zpvp/module/TextHudModule.java:20: error: cannot find symbol
+src/main/java/com/zpvp/module/TextHudModule.java:45: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:43: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:122: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:141: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:141: error: package net.minecraft.text does not exist
+src/main/java/com/zpvp/module/HudModules.java:145: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:149: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:150: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:150: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:151: error: package net.minecraft.client.gl does not exist
+src/main/java/com/zpvp/module/HudModules.java:153: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:153: error: package net.minecraft.text does not exist
+src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:232: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:258: error: cannot find symbol
+src/main/java/com/zpvp/module/HudModules.java:258: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:33: error: cannot find symbol
+src/main/java/com/zpvp/module/MoreHudModules.java:34: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:52: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:69: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:69: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:93: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:93: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:131: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:140: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:140: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:142: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:142: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:147: error: cannot find symbol
+src/main/java/com/zpvp/module/Features.java:148: error: cannot find symbol
+src/main/java/com/zpvp/Freelook.java:10: error: cannot find symbol
+src/main/java/com/zpvp/Freelook.java:20: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:23: error: method does not override or implement a method from a supertype
+src/main/java/com/zpvp/ui/ZScreen.java:25: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:38: error: method does not override or implement a method from a supertype
+src/main/java/com/zpvp/ui/ZScreen.java:40: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:50: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:50: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:50: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:65: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:66: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:70: error: method does not override or implement a method from a supertype
+src/main/java/com/zpvp/ui/ZScreen.java:75: error: method does not override or implement a method from a supertype
+src/main/java/com/zpvp/ui/ZScreen.java:80: error: method does not override or implement a method from a supertype
+src/main/java/com/zpvp/ui/ZScreen.java:85: error: method does not override or implement a method from a supertype
+src/main/java/com/zpvp/ui/ZScreen.java:87: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZScreen.java:90: error: method does not override or implement a method from a supertype
+src/main/java/com/zpvp/ui/ZTitleScreen.java:17: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:115: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:118: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:124: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:124: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:126: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:127: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:130: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:133: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:136: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:139: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:139: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:141: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:141: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:143: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:145: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:147: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:147: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:147: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:149: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:150: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:156: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:167: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:168: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:169: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:169: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:170: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:170: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:170: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:176: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:177: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:184: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:185: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:187: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:187: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:192: error: cannot find symbol
+src/main/java/com/zpvp/ui/ZTitleScreen.java:195: error: method does not override or implement a method from a supertype
+src/main/java/com/zpvp/ui/HudEditorScreen.java:17: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:22: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:22: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:25: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:26: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:33: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:34: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:35: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:35: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:37: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:42: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:52: error: cannot find symbol
+src/main/java/com/zpvp/ui/HudEditorScreen.java:52: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:39: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:43: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:45: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:46: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:70: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:70: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:70: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:72: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:128: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:128: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:154: error: cannot find symbol
+src/main/java/com/zpvp/ui/ClickGuiScreen.java:264: error: method does not override or implement a method from a supertype
+src/main/java/com/zpvp/HudRenderer.java:13: error: cannot find symbol
+src/main/java/com/zpvp/HudRenderer.java:13: error: cannot find symbol
+src/main/java/com/zpvp/CombatTracker.java:18: error: cannot find symbol
+src/main/java/com/zpvp/CombatTracker.java:19: error: cannot find symbol
+src/main/java/com/zpvp/CombatTracker.java:20: error: cannot find symbol
+src/main/java/com/zpvp/CombatTracker.java:21: error: cannot find symbol
+src/main/java/com/zpvp/CombatTracker.java:24: error: cannot find symbol
+src/main/java/com/zpvp/CombatTracker.java:29: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:33: error: package KeyBinding does not exist
+src/main/java/com/zpvp/ZPVP.java:33: error: package KeyBinding does not exist
+src/main/java/com/zpvp/ZPVP.java:33: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:35: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:35: error: package InputUtil does not exist
+src/main/java/com/zpvp/ZPVP.java:34: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:37: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:37: error: package InputUtil does not exist
+src/main/java/com/zpvp/ZPVP.java:36: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:40: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:40: error: package InputUtil does not exist
+src/main/java/com/zpvp/ZPVP.java:39: error: cannot find symbol
+src/main/java/com/zpvp/ZPVP.java:44: error: cannot find symbol
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:23: error: cannot find symbol
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:23: error: cannot find symbol
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:24: error: package net.minecraft.client.gui.widget does not exist
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:27: error: cannot find symbol
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:27: error: cannot find symbol
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:37: error: cannot find symbol
+src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:37: error: cannot find symbol
+src/main/java/com/zpvp/mixin/EntityMixin.java:17: error: cannot find symbol
+src/main/java/com/zpvp/mixin/EntityMixin.java:19: error: cannot find symbol
+src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:17: error: cannot find symbol
+src/main/java/com/zpvp/mixin/DrawContextMixin.java:16: error: cannot find symbol
+src/main/java/com/zpvp/mixin/DrawContextMixin.java:16: error: cannot find symbol
+src/main/java/com/zpvp/mixin/ScreenMixin.java:19: error: cannot find symbol
+src/main/java/com/zpvp/mixin/ScreenMixin.java:19: error: cannot find symbol
+src/main/java/com/zpvp/mixin/ScreenMixin.java:20: error: cannot find symbol
+src/main/java/com/zpvp/mixin/ScreenMixin.java:26: error: package net.minecraft.client.gui.screen does not exist
+src/main/java/com/zpvp/mixin/HandledScreenMixin.java:33: error: cannot find symbol
+src/main/java/com/zpvp/mixin/HandledScreenMixin.java:38: error: cannot find symbol
+src/main/java/com/zpvp/mixin/HandledScreenMixin.java:51: error: cannot find symbol
+  src/main/java/com/zpvp/module/Module.java:4: error: cannot find symbol
+  src/main/java/com/zpvp/module/Module.java:49: error: cannot find symbol
+  src/main/java/com/zpvp/module/TextHudModule.java:3: error: cannot find symbol
+  src/main/java/com/zpvp/module/TextHudModule.java:4: error: cannot find symbol
+  src/main/java/com/zpvp/module/TextHudModule.java:7: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModule.java:3: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModule.java:4: error: cannot find symbol
+  src/main/java/com/zpvp/module/TextHudModule.java:17: error: cannot find symbol
+  src/main/java/com/zpvp/module/TextHudModule.java:19: error: cannot find symbol
+  src/main/java/com/zpvp/module/TextHudModule.java:29: error: cannot find symbol
+  src/main/java/com/zpvp/module/TextHudModule.java:36: error: cannot find symbol
+  src/main/java/com/zpvp/module/TextHudModule.java:41: error: cannot find symbol
+  src/main/java/com/zpvp/module/TextHudModule.java:41: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModule.java:31: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModule.java:33: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModule.java:35: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModule.java:35: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModule.java:41: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModule.java:45: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModule.java:49: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModule.java:54: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModule.java:58: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModule.java:58: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:4: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:5: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:23: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:28: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:33: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:41: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:54: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:64: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:69: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:79: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:88: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:96: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:107: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:115: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:115: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:120: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:126: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:128: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:132: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:138: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:138: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:164: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:165: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:179: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:180: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:182: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:182: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:192: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:192: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:198: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:204: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:221: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:222: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:224: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:224: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:228: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:228: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:244: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:244: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:4: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:19: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:27: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:32: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:44: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:53: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:61: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:69: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:77: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:85: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:93: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:101: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:116: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:126: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:7: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:20: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:36: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:63: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:124: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:138: error: cannot find symbol
+  src/main/java/com/zpvp/Freelook.java:3: error: cannot find symbol
+  src/main/java/com/zpvp/Freelook.java:10: error: cannot find symbol
+  src/main/java/com/zpvp/Freelook.java:14: error: cannot find symbol
+  src/main/java/com/zpvp/Freelook.java:23: error: cannot find symbol
+  src/main/java/com/zpvp/Clicks.java:3: error: cannot find symbol
+  src/main/java/com/zpvp/Clicks.java:18: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:3: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:4: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:41: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:110: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:123: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:14: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:18: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:18: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:39: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:55: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:62: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:71: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:76: error: cannot find symbol
+  src/main/java/com/zpvp/ui/UI.java:4: error: cannot find symbol
+  src/main/java/com/zpvp/ui/UI.java:42: error: cannot find symbol
+  src/main/java/com/zpvp/ui/UI.java:48: error: cannot find symbol
+  src/main/java/com/zpvp/ui/UI.java:53: error: cannot find symbol
+  src/main/java/com/zpvp/ui/UI.java:58: error: cannot find symbol
+  src/main/java/com/zpvp/ui/UI.java:66: error: cannot find symbol
+  src/main/java/com/zpvp/ui/UI.java:73: error: cannot find symbol
+  src/main/java/com/zpvp/ui/UI.java:73: error: cannot find symbol
+  src/main/java/com/zpvp/ui/UI.java:77: error: cannot find symbol
+  src/main/java/com/zpvp/ui/UI.java:77: error: cannot find symbol
+  src/main/java/com/zpvp/ui/UI.java:86: error: cannot find symbol
+  src/main/java/com/zpvp/ui/UI.java:86: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:5: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:16: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:21: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:7: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:31: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:38: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:113: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:127: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:198: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:198: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:225: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:225: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:257: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:257: error: cannot find symbol
+  src/main/java/com/zpvp/Logo.java:3: error: cannot find symbol
+  src/main/java/com/zpvp/Logo.java:56: error: cannot find symbol
+  src/main/java/com/zpvp/HudRenderer.java:6: error: cannot find symbol
+  src/main/java/com/zpvp/HudRenderer.java:7: error: cannot find symbol
+  src/main/java/com/zpvp/HudRenderer.java:12: error: cannot find symbol
+  src/main/java/com/zpvp/CombatTracker.java:4: error: cannot find symbol
+  src/main/java/com/zpvp/CombatTracker.java:6: error: cannot find symbol
+  src/main/java/com/zpvp/CombatTracker.java:33: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:12: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:15: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:24: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:25: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:26: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:52: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:5: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:7: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:21: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/EntityMixin.java:4: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:5: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:16: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:16: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/DrawContextMixin.java:4: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/DrawContextMixin.java:5: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/ScreenMixin.java:5: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/ScreenMixin.java:6: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/ScreenMixin.java:17: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/HandledScreenMixin.java:6: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/HandledScreenMixin.java:29: error: cannot find symbol
+  src/main/java/com/zpvp/module/TextHudModule.java:20: error: cannot find symbol
+  src/main/java/com/zpvp/module/TextHudModule.java:20: error: cannot find symbol
+  src/main/java/com/zpvp/module/TextHudModule.java:45: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:43: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:122: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:141: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:145: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:149: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:150: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:150: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:153: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:232: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:258: error: cannot find symbol
+  src/main/java/com/zpvp/module/HudModules.java:258: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:33: error: cannot find symbol
+  src/main/java/com/zpvp/module/MoreHudModules.java:34: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:52: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:69: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:69: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:93: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:93: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:131: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:140: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:140: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:142: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:142: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:147: error: cannot find symbol
+  src/main/java/com/zpvp/module/Features.java:148: error: cannot find symbol
+  src/main/java/com/zpvp/Freelook.java:10: error: cannot find symbol
+  src/main/java/com/zpvp/Freelook.java:20: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:25: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:40: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:50: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:50: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:50: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:65: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:66: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:87: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:17: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:115: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:118: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:124: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:124: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:126: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:127: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:130: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:133: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:136: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:139: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:139: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:141: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:141: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:143: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:145: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:147: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:147: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:147: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:149: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:150: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:156: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:167: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:168: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:169: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:169: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:170: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:170: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:170: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:176: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:177: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:184: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:185: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:187: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:187: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:192: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:17: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:22: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:22: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:25: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:26: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:33: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:34: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:35: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:35: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:37: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:42: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:52: error: cannot find symbol
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:52: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:39: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:43: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:45: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:46: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:70: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:70: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:70: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:72: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:128: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:128: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:154: error: cannot find symbol
+  src/main/java/com/zpvp/HudRenderer.java:13: error: cannot find symbol
+  src/main/java/com/zpvp/HudRenderer.java:13: error: cannot find symbol
+  src/main/java/com/zpvp/CombatTracker.java:24: error: cannot find symbol
+  src/main/java/com/zpvp/CombatTracker.java:29: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:33: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:35: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:34: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:37: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:36: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:40: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:39: error: cannot find symbol
+  src/main/java/com/zpvp/ZPVP.java:44: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:23: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:23: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:27: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:27: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:37: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:37: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/EntityMixin.java:17: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/EntityMixin.java:19: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:17: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/DrawContextMixin.java:16: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/DrawContextMixin.java:16: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/ScreenMixin.java:19: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/ScreenMixin.java:19: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/ScreenMixin.java:20: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/HandledScreenMixin.java:33: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/HandledScreenMixin.java:38: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/HandledScreenMixin.java:51: error: cannot find symbol
+  src/main/java/com/zpvp/ui/ZScreen.java:23: error: method does not override or implement a method from a supertype
+  src/main/java/com/zpvp/ui/ZScreen.java:38: error: method does not override or implement a method from a supertype
+  src/main/java/com/zpvp/ui/ZScreen.java:70: error: method does not override or implement a method from a supertype
+  src/main/java/com/zpvp/ui/ZScreen.java:75: error: method does not override or implement a method from a supertype
+  src/main/java/com/zpvp/ui/ZScreen.java:80: error: method does not override or implement a method from a supertype
+  src/main/java/com/zpvp/ui/ZScreen.java:85: error: method does not override or implement a method from a supertype
+  src/main/java/com/zpvp/ui/ZScreen.java:90: error: method does not override or implement a method from a supertype
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:195: error: method does not override or implement a method from a supertype
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:264: error: method does not override or implement a method from a supertype
+  src/main/java/com/zpvp/ui/ZScreen.java:13: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/HandledScreenMixin.java:21: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:18: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/EntityMixin.java:13: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:12: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/DrawContextMixin.java:12: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/CameraMixin.java:10: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/ScreenMixin.java:14: error: cannot find symbol
+  src/main/java/com/zpvp/mixin/HandledScreenMixin.java:20: error: cannot find symbol
+  src/main/java/com/zpvp/CombatTracker.java:18: error: cannot find symbol
+  src/main/java/com/zpvp/CombatTracker.java:19: error: cannot find symbol
+  src/main/java/com/zpvp/CombatTracker.java:20: error: cannot find symbol
+  src/main/java/com/zpvp/CombatTracker.java:21: error: cannot find symbol
+  src/main/java/com/zpvp/module/TextHudModule.java:6: error: package net.minecraft.text does not exist
+  src/main/java/com/zpvp/module/HudModules.java:6: error: package net.minecraft.client.network does not exist
+  src/main/java/com/zpvp/module/HudModules.java:7: error: package net.minecraft.entity does not exist
+  src/main/java/com/zpvp/module/HudModules.java:8: error: package net.minecraft.entity.effect does not exist
+  src/main/java/com/zpvp/module/HudModules.java:9: error: package net.minecraft.item does not exist
+  src/main/java/com/zpvp/module/MoreHudModules.java:5: error: package net.minecraft.entity does not exist
+  src/main/java/com/zpvp/module/MoreHudModules.java:6: error: package net.minecraft.entity does not exist
+  src/main/java/com/zpvp/module/Features.java:8: error: package net.minecraft.client.option does not exist
+  src/main/java/com/zpvp/module/Features.java:9: error: package net.minecraft.client.option does not exist
+  src/main/java/com/zpvp/module/Features.java:10: error: package net.minecraft.entity.effect does not exist
+  src/main/java/com/zpvp/module/Features.java:11: error: package net.minecraft.entity.effect does not exist
+  src/main/java/com/zpvp/Freelook.java:4: error: package net.minecraft.client.option does not exist
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:4: error: package net.minecraft.client.gui.screen.multiplayer does not exist
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:5: error: package net.minecraft.client.gui.screen.option does not exist
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:6: error: package net.minecraft.client.gui.screen.world does not exist
+  src/main/java/com/zpvp/ui/ZTitleScreen.java:7: error: package net.minecraft.text does not exist
+  src/main/java/com/zpvp/ui/ZScreen.java:5: error: package net.minecraft.client.gui.screen does not exist
+  src/main/java/com/zpvp/ui/ZScreen.java:6: error: package net.minecraft.text does not exist
+  src/main/java/com/zpvp/ui/UI.java:3: error: package net.minecraft.client.font does not exist
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:6: error: package net.minecraft.client.gui.screen does not exist
+  src/main/java/com/zpvp/ui/HudEditorScreen.java:7: error: package net.minecraft.text does not exist
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:6: error: package net.minecraft.client.font does not exist
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:8: error: package net.minecraft.client.gui.screen does not exist
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:9: error: package net.minecraft.client.gui.widget does not exist
+  src/main/java/com/zpvp/ui/ClickGuiScreen.java:10: error: package net.minecraft.text does not exist
+  src/main/java/com/zpvp/CombatTracker.java:5: error: package net.minecraft.entity does not exist
+  src/main/java/com/zpvp/ZPVP.java:9: error: package net.fabricmc.fabric.api.client.keybinding.v1 does not exist
+  src/main/java/com/zpvp/ZPVP.java:13: error: package net.minecraft.client.option does not exist
+  src/main/java/com/zpvp/ZPVP.java:14: error: package net.minecraft.client.util does not exist
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:6: error: package net.minecraft.client.font does not exist
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:8: error: package net.minecraft.client.gui.widget does not exist
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:9: error: package net.minecraft.client.gui.widget does not exist
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:10: error: package net.minecraft.client.gui.widget does not exist
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:11: error: package net.minecraft.client.gui.widget does not exist
+  src/main/java/com/zpvp/mixin/EntityMixin.java:5: error: package net.minecraft.entity does not exist
+  src/main/java/com/zpvp/mixin/EntityMixin.java:6: error: package net.minecraft.util.math does not exist
+  src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:6: error: package net.minecraft.client.gui.screen does not exist
+  src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:7: error: package net.minecraft.client.gui.screen does not exist
+  src/main/java/com/zpvp/mixin/DrawContextMixin.java:6: error: package net.minecraft.client.gui.screen.ingame does not exist
+  src/main/java/com/zpvp/mixin/CameraMixin.java:4: error: package net.minecraft.client.render does not exist
+  src/main/java/com/zpvp/mixin/ScreenMixin.java:7: error: package net.minecraft.client.gui.screen does not exist
+  src/main/java/com/zpvp/mixin/HandledScreenMixin.java:7: error: package net.minecraft.client.gui.screen.ingame does not exist
+  src/main/java/com/zpvp/mixin/HandledScreenMixin.java:8: error: package net.minecraft.client.gui.screen.ingame does not exist
+  src/main/java/com/zpvp/mixin/HandledScreenMixin.java:9: error: package net.minecraft.client.gui.screen.ingame does not exist
+  src/main/java/com/zpvp/mixin/HandledScreenMixin.java:10: error: package net.minecraft.screen does not exist
+  src/main/java/com/zpvp/mixin/HandledScreenMixin.java:11: error: package net.minecraft.screen.slot does not exist
+  src/main/java/com/zpvp/module/HudModules.java:141: error: package net.minecraft.text does not exist
+  src/main/java/com/zpvp/module/HudModules.java:151: error: package net.minecraft.client.gl does not exist
+  src/main/java/com/zpvp/module/HudModules.java:153: error: package net.minecraft.text does not exist
+  src/main/java/com/zpvp/ZPVP.java:33: error: package KeyBinding does not exist
+  src/main/java/com/zpvp/ZPVP.java:33: error: package KeyBinding does not exist
+  src/main/java/com/zpvp/ZPVP.java:35: error: package InputUtil does not exist
+  src/main/java/com/zpvp/ZPVP.java:37: error: package InputUtil does not exist
+  src/main/java/com/zpvp/ZPVP.java:40: error: package InputUtil does not exist
+  src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:24: error: package net.minecraft.client.gui.widget does not exist
+  src/main/java/com/zpvp/mixin/ScreenMixin.java:26: error: package net.minecraft.client.gui.screen does not exist

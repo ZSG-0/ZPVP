@@ -1,0 +1,15 @@
+Compiled from "SpriteIconButton.java"
+public abstract class net.minecraft.client.gui.components.SpriteIconButton extends net.minecraft.client.gui.components.Button {
+  protected final net.minecraft.client.gui.components.WidgetSprites sprite;
+  protected final int spriteWidth;
+  protected final int spriteHeight;
+  protected final int spriteOffsetX;
+  protected final int spriteOffsetY;
+  public void setLoading(boolean);
+  public void setLoading(boolean, net.minecraft.client.gui.components.Tooltip);
+  public boolean isActive();
+  public void onPress(net.minecraft.client.input.InputWithModifiers);
+  protected void extractSprite(net.minecraft.client.gui.GuiGraphicsExtractor, int, int);
+  protected boolean extractLoadingStateIfLoading(net.minecraft.client.gui.GuiGraphicsExtractor);
+  public static net.minecraft.client.gui.components.SpriteIconButton$Builder builder(net.minecraft.network.chat.Component, net.minecraft.client.gui.components.Button$OnPress, boolean);
+}

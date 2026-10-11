@@ -1,0 +1,3474 @@
+Downloading https://services.gradle.org/distributions/gradle-9.5.1-bin.zip
+.............10%.............20%..............30%.............40%.............50%..............60%.............70%..............80%.............90%.............100%
+
+Welcome to Gradle 9.5.1!
+
+Here are the highlights of this release:
+ - Task provenance in reports and failure messages
+ - Type-safe accessors for precompiled Kotlin Settings plugins
+
+For more details see https://docs.gradle.org/9.5.1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+> Configure project :
+Fabric Loom: 1.17.21
+
+> Task :compileJava
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Module.java:4: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Module.java:49: error: cannot find symbol
+	public void onTick(MinecraftClient mc) {}
+	                   ^
+  symbol:   class MinecraftClient
+  location: class Module
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:3: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:4: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:6: error: package net.minecraft.text does not exist
+import net.minecraft.text.Text;
+                         ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:7: error: cannot find symbol
+import net.minecraft.util.Formatting;
+                         ^
+  symbol:   class Formatting
+  location: package net.minecraft.util
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:3: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:4: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:17: error: cannot find symbol
+	protected abstract List<String> lines(MinecraftClient mc);
+	                                      ^
+  symbol:   class MinecraftClient
+  location: class TextHudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:19: error: cannot find symbol
+	protected static Text styled(String s) {
+	                 ^
+  symbol:   class Text
+  location: class TextHudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:29: error: cannot find symbol
+	public int width(MinecraftClient mc) {
+	                 ^
+  symbol:   class MinecraftClient
+  location: class TextHudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:36: error: cannot find symbol
+	public int height(MinecraftClient mc) {
+	                  ^
+  symbol:   class MinecraftClient
+  location: class TextHudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:41: error: cannot find symbol
+	protected void draw(DrawContext ctx, MinecraftClient mc) {
+	                    ^
+  symbol:   class DrawContext
+  location: class TextHudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:41: error: cannot find symbol
+	protected void draw(DrawContext ctx, MinecraftClient mc) {
+	                                     ^
+  symbol:   class MinecraftClient
+  location: class TextHudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:31: error: cannot find symbol
+	public abstract int width(MinecraftClient mc);
+	                          ^
+  symbol:   class MinecraftClient
+  location: class HudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:33: error: cannot find symbol
+	public abstract int height(MinecraftClient mc);
+	                           ^
+  symbol:   class MinecraftClient
+  location: class HudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:35: error: cannot find symbol
+	protected abstract void draw(DrawContext ctx, MinecraftClient mc);
+	                             ^
+  symbol:   class DrawContext
+  location: class HudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:35: error: cannot find symbol
+	protected abstract void draw(DrawContext ctx, MinecraftClient mc);
+	                                              ^
+  symbol:   class MinecraftClient
+  location: class HudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:41: error: cannot find symbol
+	public int scaledW(MinecraftClient mc) {
+	                   ^
+  symbol:   class MinecraftClient
+  location: class HudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:45: error: cannot find symbol
+	public int scaledH(MinecraftClient mc) {
+	                   ^
+  symbol:   class MinecraftClient
+  location: class HudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:49: error: cannot find symbol
+	public void ensurePlaced(int screenW, int screenH, MinecraftClient mc) {
+	                                                   ^
+  symbol:   class MinecraftClient
+  location: class HudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:54: error: cannot find symbol
+	public boolean hit(MinecraftClient mc, int mx, int my) {
+	                   ^
+  symbol:   class MinecraftClient
+  location: class HudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:58: error: cannot find symbol
+	public void render(DrawContext ctx, MinecraftClient mc) {
+	                   ^
+  symbol:   class DrawContext
+  location: class HudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:58: error: cannot find symbol
+	public void render(DrawContext ctx, MinecraftClient mc) {
+	                                    ^
+  symbol:   class MinecraftClient
+  location: class HudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:4: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:5: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:6: error: package net.minecraft.client.network does not exist
+import net.minecraft.client.network.PlayerListEntry;
+                                   ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:7: error: package net.minecraft.entity does not exist
+import net.minecraft.entity.EquipmentSlot;
+                           ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:8: error: package net.minecraft.entity.effect does not exist
+import net.minecraft.entity.effect.StatusEffectInstance;
+                                  ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:9: error: package net.minecraft.item does not exist
+import net.minecraft.item.ItemStack;
+                         ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:23: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) { return List.of("FPS: " + mc.getCurrentFps()); }
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Fps
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:28: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) { return List.of("CPS: " + Clicks.left() + " | " + Clicks.right()); }
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Cps
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:33: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Coordinates
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:41: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Ping
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:54: error: cannot find symbol
+		@Override public void onTick(MinecraftClient mc) {
+		                             ^
+  symbol:   class MinecraftClient
+  location: class Speed
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:64: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) { return List.of(String.format(Locale.ROOT, "Speed: %.2f b/s", speed)); }
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Speed
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:69: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Direction
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:79: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Biome
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:88: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Server
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:96: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Memory
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:107: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) { return List.of(LocalTime.now().format(FMT)); }
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Clock
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:115: error: cannot find symbol
+		private static java.util.List<StatusEffectInstance> effects(MinecraftClient mc) {
+		                                                            ^
+  symbol:   class MinecraftClient
+  location: class Potions
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:115: error: cannot find symbol
+		private static java.util.List<StatusEffectInstance> effects(MinecraftClient mc) {
+		                              ^
+  symbol:   class StatusEffectInstance
+  location: class Potions
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:120: error: cannot find symbol
+		@Override public int width(MinecraftClient mc) {
+		                           ^
+  symbol:   class MinecraftClient
+  location: class Potions
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:126: error: cannot find symbol
+		@Override public int height(MinecraftClient mc) { return Math.max(1, effects(mc).size()) * ROW + 4; }
+		                            ^
+  symbol:   class MinecraftClient
+  location: class Potions
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:128: error: cannot find symbol
+		private static String label(StatusEffectInstance e) {
+		                            ^
+  symbol:   class StatusEffectInstance
+  location: class Potions
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:132: error: cannot find symbol
+		private static String time(StatusEffectInstance e) {
+		                           ^
+  symbol:   class StatusEffectInstance
+  location: class Potions
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:138: error: cannot find symbol
+		@Override protected void draw(DrawContext ctx, MinecraftClient mc) {
+		                              ^
+  symbol:   class DrawContext
+  location: class Potions
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:138: error: cannot find symbol
+		@Override protected void draw(DrawContext ctx, MinecraftClient mc) {
+		                                               ^
+  symbol:   class MinecraftClient
+  location: class Potions
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:164: error: cannot find symbol
+		@Override public int width(MinecraftClient mc) { return 120; }
+		                           ^
+  symbol:   class MinecraftClient
+  location: class ModuleList
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:165: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class ModuleList
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:179: error: cannot find symbol
+		@Override public int width(MinecraftClient mc) { return 66; }
+		                           ^
+  symbol:   class MinecraftClient
+  location: class Keystrokes
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:180: error: cannot find symbol
+		@Override public int height(MinecraftClient mc) { return 62; }
+		                            ^
+  symbol:   class MinecraftClient
+  location: class Keystrokes
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:182: error: cannot find symbol
+		@Override protected void draw(DrawContext ctx, MinecraftClient mc) {
+		                              ^
+  symbol:   class DrawContext
+  location: class Keystrokes
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:182: error: cannot find symbol
+		@Override protected void draw(DrawContext ctx, MinecraftClient mc) {
+		                                               ^
+  symbol:   class MinecraftClient
+  location: class Keystrokes
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:192: error: cannot find symbol
+		private void key(DrawContext ctx, MinecraftClient mc, String label, boolean down, int x, int y, int w, int h) {
+		                 ^
+  symbol:   class DrawContext
+  location: class Keystrokes
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:192: error: cannot find symbol
+		private void key(DrawContext ctx, MinecraftClient mc, String label, boolean down, int x, int y, int w, int h) {
+		                                  ^
+  symbol:   class MinecraftClient
+  location: class Keystrokes
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:198: error: cannot find symbol
+		private static void UI_fill(DrawContext ctx, int x, int y, int w, int h, boolean down) {
+		                            ^
+  symbol:   class DrawContext
+  location: class Keystrokes
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:204: error: cannot find symbol
+		private static final EquipmentSlot[] SLOTS = {
+		                     ^
+  symbol:   class EquipmentSlot
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+		private static final EquipmentSlot[] ARMOR = {EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET};
+		                     ^
+  symbol:   class EquipmentSlot
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:221: error: cannot find symbol
+		@Override public int width(MinecraftClient mc) { return style == 1 ? 4 * SLOT + 6 : 52; }
+		                           ^
+  symbol:   class MinecraftClient
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:222: error: cannot find symbol
+		@Override public int height(MinecraftClient mc) { return style == 1 ? SLOT + 6 : SLOTS.length * 18 + 2; }
+		                            ^
+  symbol:   class MinecraftClient
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:224: error: cannot find symbol
+		@Override protected void draw(DrawContext ctx, MinecraftClient mc) {
+		                              ^
+  symbol:   class DrawContext
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:224: error: cannot find symbol
+		@Override protected void draw(DrawContext ctx, MinecraftClient mc) {
+		                                               ^
+  symbol:   class MinecraftClient
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:228: error: cannot find symbol
+		private void drawClassic(DrawContext ctx, MinecraftClient mc) {
+		                         ^
+  symbol:   class DrawContext
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:228: error: cannot find symbol
+		private void drawClassic(DrawContext ctx, MinecraftClient mc) {
+		                                          ^
+  symbol:   class MinecraftClient
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:244: error: cannot find symbol
+		private void drawSlots(DrawContext ctx, MinecraftClient mc) {
+		                       ^
+  symbol:   class DrawContext
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:244: error: cannot find symbol
+		private void drawSlots(DrawContext ctx, MinecraftClient mc) {
+		                                        ^
+  symbol:   class MinecraftClient
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:4: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:5: error: package net.minecraft.entity does not exist
+import net.minecraft.entity.Entity;
+                           ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:6: error: package net.minecraft.entity does not exist
+import net.minecraft.entity.LivingEntity;
+                           ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:19: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Reach
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:27: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) { return List.of("Combo: " + CombatTracker.combo); }
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Combo
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:32: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Target
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:44: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Rotation
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:53: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Light
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:61: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Day
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:69: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Players
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:77: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Health
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:85: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Hunger
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:93: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Saturation
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:101: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class ItemCount
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:116: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class HeldItem
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:126: error: cannot find symbol
+		@Override protected List<String> lines(MinecraftClient mc) {
+		                                       ^
+  symbol:   class MinecraftClient
+  location: class Session
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:7: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:8: error: package net.minecraft.client.option does not exist
+import net.minecraft.client.option.GameOptions;
+                                  ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:9: error: package net.minecraft.client.option does not exist
+import net.minecraft.client.option.SimpleOption;
+                                  ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:10: error: package net.minecraft.entity.effect does not exist
+import net.minecraft.entity.effect.StatusEffectInstance;
+                                  ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:11: error: package net.minecraft.entity.effect does not exist
+import net.minecraft.entity.effect.StatusEffects;
+                                  ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:20: error: cannot find symbol
+		@Override public void onTick(MinecraftClient mc) {
+		                             ^
+  symbol:   class MinecraftClient
+  location: class ToggleSprint
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:36: error: cannot find symbol
+		@Override public void onTick(MinecraftClient mc) {
+		                             ^
+  symbol:   class MinecraftClient
+  location: class Zoom
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:63: error: cannot find symbol
+		private static <E extends Enum<E>> void setEnumOrdinal(SimpleOption<E> opt, int ordinal) {
+		                                                       ^
+  symbol:   class SimpleOption
+  location: class FpsBoost
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:124: error: cannot find symbol
+		@Override public void onTick(MinecraftClient mc) {
+		                             ^
+  symbol:   class MinecraftClient
+  location: class FreelookMod
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:138: error: cannot find symbol
+		@Override public void onTick(MinecraftClient mc) {
+		                             ^
+  symbol:   class MinecraftClient
+  location: class Fullbright
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:3: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:4: error: package net.minecraft.client.option does not exist
+import net.minecraft.client.option.Perspective;
+                                  ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:10: error: cannot find symbol
+	private static Perspective saved = Perspective.FIRST_PERSON;
+	               ^
+  symbol:   class Perspective
+  location: class Freelook
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:14: error: cannot find symbol
+	public static void start(MinecraftClient mc) {
+	                         ^
+  symbol:   class MinecraftClient
+  location: class Freelook
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:23: error: cannot find symbol
+	public static void stop(MinecraftClient mc) {
+	                        ^
+  symbol:   class MinecraftClient
+  location: class Freelook
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Clicks.java:3: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Clicks.java:18: error: cannot find symbol
+	public static void poll(MinecraftClient mc) {
+	                        ^
+  symbol:   class MinecraftClient
+  location: class Clicks
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:3: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:4: error: package net.minecraft.client.gui.screen.multiplayer does not exist
+import net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen;
+                                                  ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:5: error: package net.minecraft.client.gui.screen.option does not exist
+import net.minecraft.client.gui.screen.option.OptionsScreen;
+                                             ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:6: error: package net.minecraft.client.gui.screen.world does not exist
+import net.minecraft.client.gui.screen.world.SelectWorldScreen;
+                                            ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:7: error: package net.minecraft.text does not exist
+import net.minecraft.text.Text;
+                         ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:4: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:5: error: package net.minecraft.client.gui.screen does not exist
+import net.minecraft.client.gui.screen.Screen;
+                                      ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:6: error: package net.minecraft.text does not exist
+import net.minecraft.text.Text;
+                         ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:13: error: cannot find symbol
+public abstract class ZScreen extends Screen {
+                                      ^
+  symbol: class Screen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:41: error: cannot find symbol
+	public static void drawBackdrop(DrawContext ctx, int w, int h) {
+	                                ^
+  symbol:   class DrawContext
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:110: error: cannot find symbol
+	private boolean menuButton(DrawContext ctx, String label, String[] icon, int x, int y, int w, int h, int mx, int my, boolean accent) {
+	                           ^
+  symbol:   class DrawContext
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:123: error: cannot find symbol
+	protected void draw(DrawContext ctx, int mx, int my) {
+	                    ^
+  symbol:   class DrawContext
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:14: error: cannot find symbol
+	protected final Screen parent;
+	                ^
+  symbol:   class Screen
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:18: error: cannot find symbol
+	protected ZScreen(Text title, Screen parent) {
+	                  ^
+  symbol:   class Text
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:18: error: cannot find symbol
+	protected ZScreen(Text title, Screen parent) {
+	                              ^
+  symbol:   class Screen
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:39: error: cannot find symbol
+	public void render(DrawContext ctx, int mouseX, int mouseY, float delta) {
+	                   ^
+  symbol:   class DrawContext
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:55: error: cannot find symbol
+	protected abstract void draw(DrawContext ctx, int mx, int my);
+	                             ^
+  symbol:   class DrawContext
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:62: error: cannot find symbol
+	protected boolean button(DrawContext ctx, String label, int x, int y, int w, int h, int mx, int my, boolean selected) {
+	                         ^
+  symbol:   class DrawContext
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:71: error: cannot find symbol
+	protected void applyBlur(DrawContext context) {
+	                         ^
+  symbol:   class DrawContext
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:76: error: cannot find symbol
+	public void renderBackground(DrawContext context, int mouseX, int mouseY, float delta) {
+	                             ^
+  symbol:   class DrawContext
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:3: error: package net.minecraft.client.font does not exist
+import net.minecraft.client.font.TextRenderer;
+                                ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:4: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:42: error: cannot find symbol
+	public static void rrect(DrawContext ctx, int x, int y, int w, int h, int color) {
+	                         ^
+  symbol:   class DrawContext
+  location: class UI
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:48: error: cannot find symbol
+	public static void rbox(DrawContext ctx, int x, int y, int w, int h, int fill, int border) {
+	                        ^
+  symbol:   class DrawContext
+  location: class UI
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:53: error: cannot find symbol
+	public static void iconCentered(DrawContext ctx, int cx, int cy, String[] bmp, int color, int scale) {
+	                                ^
+  symbol:   class DrawContext
+  location: class UI
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:58: error: cannot find symbol
+	public static void icon(DrawContext ctx, int x, int y, String[] bmp, int color, int scale) {
+	                        ^
+  symbol:   class DrawContext
+  location: class UI
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:66: error: cannot find symbol
+	public static void outline(DrawContext ctx, int x, int y, int w, int h, int color) {
+	                           ^
+  symbol:   class DrawContext
+  location: class UI
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:73: error: cannot find symbol
+	public static void centeredText(DrawContext ctx, TextRenderer tr, String text, int cx, int y, int color) {
+	                                ^
+  symbol:   class DrawContext
+  location: class UI
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:73: error: cannot find symbol
+	public static void centeredText(DrawContext ctx, TextRenderer tr, String text, int cx, int y, int color) {
+	                                                 ^
+  symbol:   class TextRenderer
+  location: class UI
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:77: error: cannot find symbol
+	public static void scaledText(DrawContext ctx, TextRenderer tr, String text, float x, float y, float scale, int color) {
+	                              ^
+  symbol:   class DrawContext
+  location: class UI
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:77: error: cannot find symbol
+	public static void scaledText(DrawContext ctx, TextRenderer tr, String text, float x, float y, float scale, int color) {
+	                                               ^
+  symbol:   class TextRenderer
+  location: class UI
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:86: error: cannot find symbol
+	public static void scaledCentered(DrawContext ctx, TextRenderer tr, String text, int cx, float y, float scale, int color) {
+	                                  ^
+  symbol:   class DrawContext
+  location: class UI
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:86: error: cannot find symbol
+	public static void scaledCentered(DrawContext ctx, TextRenderer tr, String text, int cx, float y, float scale, int color) {
+	                                                   ^
+  symbol:   class TextRenderer
+  location: class UI
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:5: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:6: error: package net.minecraft.client.gui.screen does not exist
+import net.minecraft.client.gui.screen.Screen;
+                                      ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:7: error: package net.minecraft.text does not exist
+import net.minecraft.text.Text;
+                         ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:16: error: cannot find symbol
+	public HudEditorScreen(Screen parent) {
+	                       ^
+  symbol:   class Screen
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:21: error: cannot find symbol
+	protected void draw(DrawContext ctx, int mx, int my) {
+	                    ^
+  symbol:   class DrawContext
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:6: error: package net.minecraft.client.font does not exist
+import net.minecraft.client.font.TextRenderer;
+                                ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:7: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:8: error: package net.minecraft.client.gui.screen does not exist
+import net.minecraft.client.gui.screen.Screen;
+                                      ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:9: error: package net.minecraft.client.gui.widget does not exist
+import net.minecraft.client.gui.widget.TextFieldWidget;
+                                      ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:10: error: package net.minecraft.text does not exist
+import net.minecraft.text.Text;
+                         ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:31: error: cannot find symbol
+	private TextFieldWidget search;
+	        ^
+  symbol:   class TextFieldWidget
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:38: error: cannot find symbol
+	public ClickGuiScreen(Screen parent) {
+	                      ^
+  symbol:   class Screen
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:113: error: cannot find symbol
+	protected void draw(DrawContext ctx, int rawMx, int rawMy) {
+	                    ^
+  symbol:   class DrawContext
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:127: error: cannot find symbol
+	private void drawMenu(DrawContext ctx, int mx, int my) {
+	                      ^
+  symbol:   class DrawContext
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:198: error: cannot find symbol
+	private void drawCard(DrawContext ctx, TextRenderer tr, Module m, int x, int y, int cw, int mx, int my) {
+	                      ^
+  symbol:   class DrawContext
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:198: error: cannot find symbol
+	private void drawCard(DrawContext ctx, TextRenderer tr, Module m, int x, int y, int cw, int mx, int my) {
+	                                       ^
+  symbol:   class TextRenderer
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:225: error: cannot find symbol
+	private void drawSettings(DrawContext ctx, TextRenderer tr, int mx, int my) {
+	                          ^
+  symbol:   class DrawContext
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:225: error: cannot find symbol
+	private void drawSettings(DrawContext ctx, TextRenderer tr, int mx, int my) {
+	                                           ^
+  symbol:   class TextRenderer
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:257: error: cannot find symbol
+	private boolean small(DrawContext ctx, TextRenderer tr, String label, int x, int y, int w, int h, int mx, int my, boolean active) {
+	                      ^
+  symbol:   class DrawContext
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:257: error: cannot find symbol
+	private boolean small(DrawContext ctx, TextRenderer tr, String label, int x, int y, int w, int h, int mx, int my, boolean active) {
+	                                       ^
+  symbol:   class TextRenderer
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Logo.java:3: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Logo.java:56: error: cannot find symbol
+	public static void draw(DrawContext ctx, int cx, int top, int targetWidth) {
+	                        ^
+  symbol:   class DrawContext
+  location: class Logo
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/HudRenderer.java:6: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/HudRenderer.java:7: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/HudRenderer.java:12: error: cannot find symbol
+	public static void render(DrawContext ctx) {
+	                          ^
+  symbol:   class DrawContext
+  location: class HudRenderer
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:4: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:5: error: package net.minecraft.entity does not exist
+import net.minecraft.entity.LivingEntity;
+                           ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:6: error: cannot find symbol
+import net.minecraft.util.ActionResult;
+                         ^
+  symbol:   class ActionResult
+  location: package net.minecraft.util
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:33: error: cannot find symbol
+	public static void tick(MinecraftClient mc) {
+	                        ^
+  symbol:   class MinecraftClient
+  location: class CombatTracker
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:9: error: package net.fabricmc.fabric.api.client.keybinding.v1 does not exist
+import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
+                                                   ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:12: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:13: error: package net.minecraft.client.option does not exist
+import net.minecraft.client.option.KeyBinding;
+                                  ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:14: error: package net.minecraft.client.util does not exist
+import net.minecraft.client.util.InputUtil;
+                                ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:15: error: cannot find symbol
+import net.minecraft.util.Identifier;
+                         ^
+  symbol:   class Identifier
+  location: package net.minecraft.util
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:24: error: cannot find symbol
+	public static KeyBinding menuKey;
+	              ^
+  symbol:   class KeyBinding
+  location: class ZPVP
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:25: error: cannot find symbol
+	public static KeyBinding zoomKey;
+	              ^
+  symbol:   class KeyBinding
+  location: class ZPVP
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:26: error: cannot find symbol
+	public static KeyBinding freelookKey;
+	              ^
+  symbol:   class KeyBinding
+  location: class ZPVP
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:52: error: cannot find symbol
+	private void onTick(MinecraftClient mc) {
+	                    ^
+  symbol:   class MinecraftClient
+  location: class ZPVP
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:5: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:6: error: package net.minecraft.client.font does not exist
+import net.minecraft.client.font.TextRenderer;
+                                ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:7: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:8: error: package net.minecraft.client.gui.widget does not exist
+import net.minecraft.client.gui.widget.ButtonWidget;
+                                      ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:9: error: package net.minecraft.client.gui.widget does not exist
+import net.minecraft.client.gui.widget.ClickableWidget;
+                                      ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:10: error: package net.minecraft.client.gui.widget does not exist
+import net.minecraft.client.gui.widget.CyclingButtonWidget;
+                                      ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:11: error: package net.minecraft.client.gui.widget does not exist
+import net.minecraft.client.gui.widget.PressableWidget;
+                                      ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:21: error: cannot find symbol
+	private void zpvp$style(DrawContext ctx, int mouseX, int mouseY, float delta, CallbackInfo ci) {
+	                        ^
+  symbol:   class DrawContext
+  location: class PressableWidgetMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/EntityMixin.java:4: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/EntityMixin.java:5: error: package net.minecraft.entity does not exist
+import net.minecraft.entity.Entity;
+                           ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/EntityMixin.java:6: error: package net.minecraft.util.math does not exist
+import net.minecraft.util.math.MathHelper;
+                              ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:5: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:6: error: package net.minecraft.client.gui.screen does not exist
+import net.minecraft.client.gui.screen.Screen;
+                                      ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:7: error: package net.minecraft.client.gui.screen does not exist
+import net.minecraft.client.gui.screen.TitleScreen;
+                                      ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:16: error: cannot find symbol
+	private Screen zpvp$replaceTitle(Screen screen) {
+	                                 ^
+  symbol:   class Screen
+  location: class MinecraftClientMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:16: error: cannot find symbol
+	private Screen zpvp$replaceTitle(Screen screen) {
+	        ^
+  symbol:   class Screen
+  location: class MinecraftClientMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/DrawContextMixin.java:4: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/DrawContextMixin.java:5: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/DrawContextMixin.java:6: error: package net.minecraft.client.gui.screen.ingame does not exist
+import net.minecraft.client.gui.screen.ingame.HandledScreen;
+                                             ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/CameraMixin.java:4: error: package net.minecraft.client.render does not exist
+import net.minecraft.client.render.Camera;
+                                  ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:5: error: cannot find symbol
+import net.minecraft.client.MinecraftClient;
+                           ^
+  symbol:   class MinecraftClient
+  location: package net.minecraft.client
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:6: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:7: error: package net.minecraft.client.gui.screen does not exist
+import net.minecraft.client.gui.screen.Screen;
+                                      ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:17: error: cannot find symbol
+	private void zpvp$background(DrawContext ctx, int mouseX, int mouseY, float delta, CallbackInfo ci) {
+	                             ^
+  symbol:   class DrawContext
+  location: class ScreenMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:6: error: cannot find symbol
+import net.minecraft.client.gui.DrawContext;
+                               ^
+  symbol:   class DrawContext
+  location: package net.minecraft.client.gui
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:7: error: package net.minecraft.client.gui.screen.ingame does not exist
+import net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen;
+                                             ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:8: error: package net.minecraft.client.gui.screen.ingame does not exist
+import net.minecraft.client.gui.screen.ingame.HandledScreen;
+                                             ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:9: error: package net.minecraft.client.gui.screen.ingame does not exist
+import net.minecraft.client.gui.screen.ingame.InventoryScreen;
+                                             ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:10: error: package net.minecraft.screen does not exist
+import net.minecraft.screen.ScreenHandler;
+                           ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:11: error: package net.minecraft.screen.slot does not exist
+import net.minecraft.screen.slot.Slot;
+                                ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:21: error: cannot find symbol
+public abstract class HandledScreenMixin<T extends ScreenHandler> {
+                                                   ^
+  symbol: class ScreenHandler
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:29: error: cannot find symbol
+	private void zpvp$panel(DrawContext ctx, int mouseX, int mouseY, float delta, CallbackInfo ci) {
+	                        ^
+  symbol:   class DrawContext
+  location: class HandledScreenMixin<T>
+  where T is a type-variable:
+    T declared in class HandledScreenMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:18: error: cannot find symbol
+@Mixin(PressableWidget.class)
+       ^
+  symbol: class PressableWidget
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/EntityMixin.java:13: error: cannot find symbol
+@Mixin(Entity.class)
+       ^
+  symbol: class Entity
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:12: error: cannot find symbol
+@Mixin(MinecraftClient.class)
+       ^
+  symbol: class MinecraftClient
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/DrawContextMixin.java:12: error: cannot find symbol
+@Mixin(DrawContext.class)
+       ^
+  symbol: class DrawContext
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/CameraMixin.java:10: error: cannot find symbol
+@Mixin(Camera.class)
+       ^
+  symbol: class Camera
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:14: error: cannot find symbol
+@Mixin(Screen.class)
+       ^
+  symbol: class Screen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:20: error: cannot find symbol
+@Mixin(HandledScreen.class)
+       ^
+  symbol: class HandledScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:20: error: cannot find symbol
+		return Text.literal(s.toUpperCase(Locale.ROOT)).formatted(Formatting.BOLD);
+		                                                          ^
+  symbol:   variable Formatting
+  location: class TextHudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:20: error: cannot find symbol
+		return Text.literal(s.toUpperCase(Locale.ROOT)).formatted(Formatting.BOLD);
+		       ^
+  symbol:   variable Text
+  location: class TextHudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:45: error: cannot find symbol
+			Text t = styled(s);
+			^
+  symbol:   class Text
+  location: class TextHudModule
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:43: error: cannot find symbol
+				PlayerListEntry e = mc.getNetworkHandler().getPlayerListEntry(mc.player.getUuid());
+				^
+  symbol:   class PlayerListEntry
+  location: class Ping
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:122: error: cannot find symbol
+			for (StatusEffectInstance e : effects(mc)) w = Math.max(w, 26 + mc.textRenderer.getWidth(label(e)) + 6);
+			     ^
+  symbol:   class StatusEffectInstance
+  location: class Potions
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:141: error: cannot find symbol
+				ctx.drawText(mc.textRenderer, net.minecraft.text.Text.literal("NO EFFECTS").formatted(net.minecraft.util.Formatting.BOLD), 4, 7, 0xFF8C8C8C, true);
+				                                                                                                        ^
+  symbol:   class Formatting
+  location: package net.minecraft.util
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:141: error: package net.minecraft.text does not exist
+				ctx.drawText(mc.textRenderer, net.minecraft.text.Text.literal("NO EFFECTS").formatted(net.minecraft.util.Formatting.BOLD), 4, 7, 0xFF8C8C8C, true);
+				                                                ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:145: error: cannot find symbol
+			for (StatusEffectInstance e : list) {
+			     ^
+  symbol:   class StatusEffectInstance
+  location: class Potions
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:149: error: cannot find symbol
+					net.minecraft.util.Identifier id = key.get().getValue();
+					                  ^
+  symbol:   class Identifier
+  location: package net.minecraft.util
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:150: error: cannot find symbol
+					net.minecraft.util.Identifier sprite = net.minecraft.util.Identifier.of(id.getNamespace(), "mob_effect/" + id.getPath());
+					                  ^
+  symbol:   class Identifier
+  location: package net.minecraft.util
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:150: error: cannot find symbol
+					net.minecraft.util.Identifier sprite = net.minecraft.util.Identifier.of(id.getNamespace(), "mob_effect/" + id.getPath());
+					                                                         ^
+  symbol:   class Identifier
+  location: package net.minecraft.util
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:151: error: package net.minecraft.client.gl does not exist
+					ctx.drawGuiTexture(net.minecraft.client.gl.RenderPipelines.GUI_TEXTURED, sprite, 4, y + 2, 18, 18);
+					                                          ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:153: error: cannot find symbol
+				ctx.drawText(mc.textRenderer, net.minecraft.text.Text.literal(label(e)).formatted(net.minecraft.util.Formatting.BOLD), 26, y + 3, 0xFFFFFFFF, true);
+				                                                                                                    ^
+  symbol:   class Formatting
+  location: package net.minecraft.util
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:153: error: package net.minecraft.text does not exist
+				ctx.drawText(mc.textRenderer, net.minecraft.text.Text.literal(label(e)).formatted(net.minecraft.util.Formatting.BOLD), 26, y + 3, 0xFFFFFFFF, true);
+				                                                ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+			EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET, EquipmentSlot.MAINHAND
+			^
+  symbol:   variable EquipmentSlot
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+			EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET, EquipmentSlot.MAINHAND
+			                    ^
+  symbol:   variable EquipmentSlot
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+			EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET, EquipmentSlot.MAINHAND
+			                                         ^
+  symbol:   variable EquipmentSlot
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+			EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET, EquipmentSlot.MAINHAND
+			                                                             ^
+  symbol:   variable EquipmentSlot
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+			EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET, EquipmentSlot.MAINHAND
+			                                                                                 ^
+  symbol:   variable EquipmentSlot
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+		private static final EquipmentSlot[] ARMOR = {EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET};
+		                                              ^
+  symbol:   variable EquipmentSlot
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+		private static final EquipmentSlot[] ARMOR = {EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET};
+		                                                                  ^
+  symbol:   variable EquipmentSlot
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+		private static final EquipmentSlot[] ARMOR = {EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET};
+		                                                                                       ^
+  symbol:   variable EquipmentSlot
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+		private static final EquipmentSlot[] ARMOR = {EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET};
+		                                                                                                           ^
+  symbol:   variable EquipmentSlot
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:232: error: cannot find symbol
+				ItemStack stack = mc.player.getEquippedStack(SLOTS[i]);
+				^
+  symbol:   class ItemStack
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:258: error: cannot find symbol
+				ItemStack stack = mc.player == null ? ItemStack.EMPTY : mc.player.getEquippedStack(ARMOR[i]);
+				^
+  symbol:   class ItemStack
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:258: error: cannot find symbol
+				ItemStack stack = mc.player == null ? ItemStack.EMPTY : mc.player.getEquippedStack(ARMOR[i]);
+				                                      ^
+  symbol:   variable ItemStack
+  location: class ArmorHud
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:33: error: cannot find symbol
+			Entity t = mc.targetedEntity;
+			^
+  symbol:   class Entity
+  location: class Target
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:34: error: cannot find symbol
+			if (t instanceof LivingEntity le) {
+			                 ^
+  symbol:   class LivingEntity
+  location: class Target
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:52: error: cannot find symbol
+				MinecraftClient.getInstance().options.getFov().setValue(savedFov);
+				^
+  symbol:   variable MinecraftClient
+  location: class Zoom
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:69: error: cannot find symbol
+			GameOptions o = MinecraftClient.getInstance().options;
+			^
+  symbol:   class GameOptions
+  location: class FpsBoost
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:69: error: cannot find symbol
+			GameOptions o = MinecraftClient.getInstance().options;
+			                ^
+  symbol:   variable MinecraftClient
+  location: class FpsBoost
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:93: error: cannot find symbol
+			GameOptions o = MinecraftClient.getInstance().options;
+			^
+  symbol:   class GameOptions
+  location: class FpsBoost
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:93: error: cannot find symbol
+			GameOptions o = MinecraftClient.getInstance().options;
+			                ^
+  symbol:   variable MinecraftClient
+  location: class FpsBoost
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:131: error: cannot find symbol
+			Freelook.stop(MinecraftClient.getInstance());
+			              ^
+  symbol:   variable MinecraftClient
+  location: class FreelookMod
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:140: error: cannot find symbol
+			StatusEffectInstance cur = mc.player.getStatusEffect(StatusEffects.NIGHT_VISION);
+			^
+  symbol:   class StatusEffectInstance
+  location: class Fullbright
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:140: error: cannot find symbol
+			StatusEffectInstance cur = mc.player.getStatusEffect(StatusEffects.NIGHT_VISION);
+			                                                     ^
+  symbol:   variable StatusEffects
+  location: class Fullbright
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:142: error: cannot find symbol
+				mc.player.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 1200, 0, true, false, false));
+				                              ^
+  symbol:   class StatusEffectInstance
+  location: class Fullbright
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:142: error: cannot find symbol
+				mc.player.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 1200, 0, true, false, false));
+				                                                   ^
+  symbol:   variable StatusEffects
+  location: class Fullbright
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:147: error: cannot find symbol
+			var p = MinecraftClient.getInstance().player;
+			        ^
+  symbol:   variable MinecraftClient
+  location: class Fullbright
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:148: error: cannot find symbol
+			if (p != null) p.removeStatusEffect(StatusEffects.NIGHT_VISION);
+			                                    ^
+  symbol:   variable StatusEffects
+  location: class Fullbright
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:10: error: cannot find symbol
+	private static Perspective saved = Perspective.FIRST_PERSON;
+	                                   ^
+  symbol:   variable Perspective
+  location: class Freelook
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:20: error: cannot find symbol
+		mc.options.setPerspective(Perspective.THIRD_PERSON_BACK);
+		                          ^
+  symbol:   variable Perspective
+  location: class Freelook
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:23: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:25: error: cannot find symbol
+		long w = client.getWindow().getHandle();
+		         ^
+  symbol:   variable client
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:38: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:40: error: cannot find symbol
+		long w = client.getWindow().getHandle();
+		         ^
+  symbol:   variable client
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:50: error: cannot find symbol
+		ctx.fill(0, 0, width, height, client.world == null ? 0xFF050506 : 0xC8000000);
+		               ^
+  symbol:   variable width
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:50: error: cannot find symbol
+		ctx.fill(0, 0, width, height, client.world == null ? 0xFF050506 : 0xC8000000);
+		                      ^
+  symbol:   variable height
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:50: error: cannot find symbol
+		ctx.fill(0, 0, width, height, client.world == null ? 0xFF050506 : 0xC8000000);
+		                              ^
+  symbol:   variable client
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:65: error: cannot find symbol
+		int tw = textRenderer.getWidth(label);
+		         ^
+  symbol:   variable textRenderer
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:66: error: cannot find symbol
+		ctx.drawText(textRenderer, label, x + (w - tw) / 2, y + (h - 8) / 2, selected || hover ? UI.WHITE : 0xFFB8B8B8, false);
+		             ^
+  symbol:   variable textRenderer
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:70: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:75: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:80: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:85: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:87: error: cannot find symbol
+		client.setScreen(parent);
+		^
+  symbol:   variable client
+  location: class ZScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:90: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:17: error: cannot find symbol
+		super(Text.literal("ZPVP"), null);
+		      ^
+  symbol:   variable Text
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:115: error: cannot find symbol
+		int tw = textRenderer.getWidth(text);
+		         ^
+  symbol:   variable textRenderer
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:118: error: cannot find symbol
+		ctx.drawText(textRenderer, text, tx, y + (h - 8) / 2, color, false);
+		             ^
+  symbol:   variable textRenderer
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:124: error: cannot find symbol
+		drawBackdrop(ctx, width, height);
+		                  ^
+  symbol:   variable width
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:124: error: cannot find symbol
+		drawBackdrop(ctx, width, height);
+		                         ^
+  symbol:   variable height
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:126: error: cannot find symbol
+		int cx = width / 2;
+		         ^
+  symbol:   variable width
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:127: error: cannot find symbol
+		int top = Math.max(6, height / 2 - 100);
+		                      ^
+  symbol:   variable height
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:130: error: cannot find symbol
+		int logoW = Math.min(190, width - 40);
+		                          ^
+  symbol:   variable width
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:133: error: cannot find symbol
+		UI.centeredText(ctx, textRenderer, "C L I E N T", cx, top + logoH + 6, UI.GRAY);
+		                     ^
+  symbol:   variable textRenderer
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:136: error: cannot find symbol
+		int bw = Math.min(160, width - 40), bh = 20, gap = 4;
+		                       ^
+  symbol:   variable width
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:139: error: cannot find symbol
+		if (menuButton(ctx, "Singleplayer", UI.ICON_PERSON, bx, by, bw, bh, mx, my, false)) { client.setScreen(new SelectWorldScreen(this)); return; }
+		                                                                                                           ^
+  symbol:   class SelectWorldScreen
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:139: error: cannot find symbol
+		if (menuButton(ctx, "Singleplayer", UI.ICON_PERSON, bx, by, bw, bh, mx, my, false)) { client.setScreen(new SelectWorldScreen(this)); return; }
+		                                                                                      ^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:141: error: cannot find symbol
+		if (menuButton(ctx, "Multiplayer", UI.ICON_PEOPLE, bx, by, bw, bh, mx, my, false)) { client.setScreen(new MultiplayerScreen(this)); return; }
+		                                                                                                          ^
+  symbol:   class MultiplayerScreen
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:141: error: cannot find symbol
+		if (menuButton(ctx, "Multiplayer", UI.ICON_PEOPLE, bx, by, bw, bh, mx, my, false)) { client.setScreen(new MultiplayerScreen(this)); return; }
+		                                                                                     ^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:143: error: cannot find symbol
+		if (menuButton(ctx, "Mods", UI.ICON_STAR, bx, by, bw, bh, mx, my, true)) { client.setScreen(new ClickGuiScreen(this)); return; }
+		                                                                           ^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:145: error: cannot find symbol
+		if (menuButton(ctx, "HUD Editor", UI.ICON_MOVE, bx, by, bw, bh, mx, my, false)) { client.setScreen(new HudEditorScreen(this)); return; }
+		                                                                                  ^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:147: error: cannot find symbol
+		if (menuButton(ctx, "Options", UI.ICON_GEAR, bx, by, bw, bh, mx, my, false)) { client.setScreen(new OptionsScreen(this, client.options)); return; }
+		                                                                                                    ^
+  symbol:   class OptionsScreen
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:147: error: cannot find symbol
+		if (menuButton(ctx, "Options", UI.ICON_GEAR, bx, by, bw, bh, mx, my, false)) { client.setScreen(new OptionsScreen(this, client.options)); return; }
+		                                                                                                                        ^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:147: error: cannot find symbol
+		if (menuButton(ctx, "Options", UI.ICON_GEAR, bx, by, bw, bh, mx, my, false)) { client.setScreen(new OptionsScreen(this, client.options)); return; }
+		                                                                               ^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:149: error: cannot find symbol
+		int quitY = Math.max(by + bh + 10, height - 30);
+		                                   ^
+  symbol:   variable height
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:150: error: cannot find symbol
+		if (menuButton(ctx, "Quit Game", null, bx, quitY, bw, bh, mx, my, false)) { client.scheduleStop(); return; }
+		                                                                            ^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:156: error: cannot find symbol
+		int tx = width - 4 - (tb + tg) * icons.length + tg;
+		         ^
+  symbol:   variable width
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:167: error: cannot find symbol
+					case 0 -> client.setScreen(new ClickGuiScreen(this));
+					          ^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:168: error: cannot find symbol
+					case 1 -> client.setScreen(new HudEditorScreen(this));
+					          ^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:169: error: cannot find symbol
+					case 2 -> client.setScreen(new MultiplayerScreen(this));
+					                               ^
+  symbol:   class MultiplayerScreen
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:169: error: cannot find symbol
+					case 2 -> client.setScreen(new MultiplayerScreen(this));
+					          ^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:170: error: cannot find symbol
+					default -> client.setScreen(new OptionsScreen(this, client.options));
+					                                ^
+  symbol:   class OptionsScreen
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:170: error: cannot find symbol
+					default -> client.setScreen(new OptionsScreen(this, client.options));
+					                                                    ^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:170: error: cannot find symbol
+					default -> client.setScreen(new OptionsScreen(this, client.options));
+					           ^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:176: error: cannot find symbol
+		String name = client.getSession().getUsername();
+		              ^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:177: error: cannot find symbol
+		int cw = textRenderer.getWidth(name) + 34;
+		         ^
+  symbol:   variable textRenderer
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:184: error: cannot find symbol
+		ctx.drawText(textRenderer, name, chipX + 30, 4 + (tb - 8) / 2, UI.WHITE, false);
+		             ^
+  symbol:   variable textRenderer
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:185: error: cannot find symbol
+		if (hovered != null) UI.centeredText(ctx, textRenderer, hovered, hoveredX, 4 + tb + 4, UI.WHITE);
+		                                          ^
+  symbol:   variable textRenderer
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:187: error: cannot find symbol
+		ctx.drawText(textRenderer, "ZPVP 1.0.0  -  Minecraft 1.21.11", 6, height - 12, UI.GRAY, false);
+		             ^
+  symbol:   variable textRenderer
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:187: error: cannot find symbol
+		ctx.drawText(textRenderer, "ZPVP 1.0.0  -  Minecraft 1.21.11", 6, height - 12, UI.GRAY, false);
+		                                                                  ^
+  symbol:   variable height
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:192: error: cannot find symbol
+		client.setScreen(new ClickGuiScreen(this));
+		^
+  symbol:   variable client
+  location: class ZTitleScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:195: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:17: error: cannot find symbol
+		super(Text.literal("HUD Editor"), parent);
+		      ^
+  symbol:   variable Text
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:22: error: cannot find symbol
+		int w = width, h = height;
+		        ^
+  symbol:   variable width
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:22: error: cannot find symbol
+		int w = width, h = height;
+		                   ^
+  symbol:   variable height
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:25: error: cannot find symbol
+		UI.centeredText(ctx, textRenderer, "HUD EDITOR  -  drag mods to move them", w / 2, 8, UI.WHITE);
+		                     ^
+  symbol:   variable textRenderer
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:26: error: cannot find symbol
+		UI.centeredText(ctx, textRenderer, "Scale and background are in the mod menu", w / 2, 20, UI.GRAY);
+		                     ^
+  symbol:   variable textRenderer
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:33: error: cannot find symbol
+			m.ensurePlaced(w, h, client);
+			                     ^
+  symbol:   variable client
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:34: error: cannot find symbol
+			m.render(ctx, client);
+			              ^
+  symbol:   variable client
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:35: error: cannot find symbol
+			UI.outline(ctx, m.x - 1, m.y - 1, m.scaledW(client) + 2, m.scaledH(client) + 2, m == dragging ? UI.RED : 0xFF777777);
+			                                            ^
+  symbol:   variable client
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:35: error: cannot find symbol
+			UI.outline(ctx, m.x - 1, m.y - 1, m.scaledW(client) + 2, m.scaledH(client) + 2, m == dragging ? UI.RED : 0xFF777777);
+			                                                                   ^
+  symbol:   variable client
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:37: error: cannot find symbol
+		if (!any) UI.centeredText(ctx, textRenderer, "No HUD mods are enabled - turn some on in the mod menu", w / 2, h / 2, UI.GRAY);
+		                               ^
+  symbol:   variable textRenderer
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:42: error: cannot find symbol
+				if (m.isEnabled() && m.hit(client, mx, my)) {
+				                           ^
+  symbol:   variable client
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:52: error: cannot find symbol
+			int sw = dragging.scaledW(client), sh = dragging.scaledH(client);
+			                          ^
+  symbol:   variable client
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:52: error: cannot find symbol
+			int sw = dragging.scaledW(client), sh = dragging.scaledH(client);
+			                                                         ^
+  symbol:   variable client
+  location: class HudEditorScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:39: error: cannot find symbol
+		super(Text.literal("ZPVP"), parent);
+		      ^
+  symbol:   variable Text
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:43: error: cannot find symbol
+		double gs = client.getWindow().getScaleFactor();
+		            ^
+  symbol:   variable client
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:45: error: cannot find symbol
+		vw = (int) (width / k);
+		            ^
+  symbol:   variable width
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:46: error: cannot find symbol
+		vh = (int) (height / k);
+		            ^
+  symbol:   variable height
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:70: error: cannot find symbol
+		search = new TextFieldWidget(textRenderer, 0, 0, 10, 10, Text.literal("Search"));
+		             ^
+  symbol:   class TextFieldWidget
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:70: error: cannot find symbol
+		search = new TextFieldWidget(textRenderer, 0, 0, 10, 10, Text.literal("Search"));
+		                             ^
+  symbol:   variable textRenderer
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:70: error: cannot find symbol
+		search = new TextFieldWidget(textRenderer, 0, 0, 10, 10, Text.literal("Search"));
+		                                                         ^
+  symbol:   variable Text
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:72: error: cannot find symbol
+		search.setPlaceholder(Text.literal("SEARCH..."));
+		                      ^
+  symbol:   variable Text
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:128: error: cannot find symbol
+		TextRenderer tr = textRenderer;
+		^
+  symbol:   class TextRenderer
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:128: error: cannot find symbol
+		TextRenderer tr = textRenderer;
+		                  ^
+  symbol:   variable textRenderer
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:154: error: cannot find symbol
+			if (click(cmx, cmy, tx, ty, ew, 28)) { client.setScreen(new HudEditorScreen(this)); return; }
+			                                       ^
+  symbol:   variable client
+  location: class ClickGuiScreen
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:264: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/HudRenderer.java:13: error: cannot find symbol
+		MinecraftClient mc = MinecraftClient.getInstance();
+		^
+  symbol:   class MinecraftClient
+  location: class HudRenderer
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/HudRenderer.java:13: error: cannot find symbol
+		MinecraftClient mc = MinecraftClient.getInstance();
+		                     ^
+  symbol:   variable MinecraftClient
+  location: class HudRenderer
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:18: error: cannot find symbol
+			if (world.isClient()) {
+			         ^
+  symbol:   method isClient()
+  location: variable world of type Level
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:19: error: cannot find symbol
+				double ex = hit != null ? hit.getPos().x : entity.getX();
+				                             ^
+  symbol:   method getPos()
+  location: variable hit of type EntityHitResult
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:20: error: cannot find symbol
+				double ey = hit != null ? hit.getPos().y : entity.getEyeY();
+				                             ^
+  symbol:   method getPos()
+  location: variable hit of type EntityHitResult
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:21: error: cannot find symbol
+				double ez = hit != null ? hit.getPos().z : entity.getZ();
+				                             ^
+  symbol:   method getPos()
+  location: variable hit of type EntityHitResult
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:24: error: cannot find symbol
+				if (entity instanceof LivingEntity) {
+				                      ^
+  symbol:   class LivingEntity
+  location: class CombatTracker
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:29: error: cannot find symbol
+			return ActionResult.PASS;
+			       ^
+  symbol:   variable ActionResult
+  location: class CombatTracker
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:33: error: package KeyBinding does not exist
+		KeyBinding.Category category = KeyBinding.Category.create(Identifier.of(MOD_ID, "main"));
+		          ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:33: error: package KeyBinding does not exist
+		KeyBinding.Category category = KeyBinding.Category.create(Identifier.of(MOD_ID, "main"));
+		                                         ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:33: error: cannot find symbol
+		KeyBinding.Category category = KeyBinding.Category.create(Identifier.of(MOD_ID, "main"));
+		                                                          ^
+  symbol:   variable Identifier
+  location: class ZPVP
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:35: error: cannot find symbol
+			new KeyBinding("key.zpvp.menu", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_RIGHT_SHIFT, category));
+			    ^
+  symbol:   class KeyBinding
+  location: class ZPVP
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:35: error: package InputUtil does not exist
+			new KeyBinding("key.zpvp.menu", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_RIGHT_SHIFT, category));
+			                                         ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:34: error: cannot find symbol
+		menuKey = KeyBindingHelper.registerKeyBinding(
+		          ^
+  symbol:   variable KeyBindingHelper
+  location: class ZPVP
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:37: error: cannot find symbol
+			new KeyBinding("key.zpvp.zoom", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_C, category));
+			    ^
+  symbol:   class KeyBinding
+  location: class ZPVP
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:37: error: package InputUtil does not exist
+			new KeyBinding("key.zpvp.zoom", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_C, category));
+			                                         ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:36: error: cannot find symbol
+		zoomKey = KeyBindingHelper.registerKeyBinding(
+		          ^
+  symbol:   variable KeyBindingHelper
+  location: class ZPVP
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:40: error: cannot find symbol
+			new KeyBinding("key.zpvp.freelook", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_LEFT_ALT, category));
+			    ^
+  symbol:   class KeyBinding
+  location: class ZPVP
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:40: error: package InputUtil does not exist
+			new KeyBinding("key.zpvp.freelook", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_LEFT_ALT, category));
+			                                             ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:39: error: cannot find symbol
+		freelookKey = KeyBindingHelper.registerKeyBinding(
+		              ^
+  symbol:   variable KeyBindingHelper
+  location: class ZPVP
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:44: error: cannot find symbol
+			Identifier.of(MOD_ID, "hud"),
+			^
+  symbol:   variable Identifier
+  location: class ZPVP
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:23: error: cannot find symbol
+		if (!(self instanceof ButtonWidget || self instanceof CyclingButtonWidget)) return;
+		                      ^
+  symbol:   class ButtonWidget
+  location: class PressableWidgetMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:23: error: cannot find symbol
+		if (!(self instanceof ButtonWidget || self instanceof CyclingButtonWidget)) return;
+		                                                      ^
+  symbol:   class CyclingButtonWidget
+  location: class PressableWidgetMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:24: error: package net.minecraft.client.gui.widget does not exist
+		if (self instanceof net.minecraft.client.gui.widget.TexturedButtonWidget) return; // recipe book, icon buttons
+		                                                   ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:27: error: cannot find symbol
+		ClickableWidget w = (ClickableWidget) self;
+		^
+  symbol:   class ClickableWidget
+  location: class PressableWidgetMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:27: error: cannot find symbol
+		ClickableWidget w = (ClickableWidget) self;
+		                     ^
+  symbol:   class ClickableWidget
+  location: class PressableWidgetMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:37: error: cannot find symbol
+		TextRenderer tr = MinecraftClient.getInstance().textRenderer;
+		^
+  symbol:   class TextRenderer
+  location: class PressableWidgetMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:37: error: cannot find symbol
+		TextRenderer tr = MinecraftClient.getInstance().textRenderer;
+		                  ^
+  symbol:   variable MinecraftClient
+  location: class PressableWidgetMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/EntityMixin.java:17: error: cannot find symbol
+		if (Freelook.active && (Object) this == MinecraftClient.getInstance().player) {
+		                                        ^
+  symbol:   variable MinecraftClient
+  location: class EntityMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/EntityMixin.java:19: error: cannot find symbol
+			Freelook.pitch = MathHelper.clamp(Freelook.pitch + (float) dy * 0.15f, -90f, 90f);
+			                 ^
+  symbol:   variable MathHelper
+  location: class EntityMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:17: error: cannot find symbol
+		if (screen != null && screen.getClass() == TitleScreen.class && ModuleManager.customMenuEnabled()) {
+		                                           ^
+  symbol:   class TitleScreen
+  location: class MinecraftClientMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/DrawContextMixin.java:16: error: cannot find symbol
+		if (InventoryStyle.drawn && MinecraftClient.getInstance().currentScreen instanceof HandledScreen<?>
+		                            ^
+  symbol:   variable MinecraftClient
+  location: class DrawContextMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/DrawContextMixin.java:16: error: cannot find symbol
+		if (InventoryStyle.drawn && MinecraftClient.getInstance().currentScreen instanceof HandledScreen<?>
+		                                                                                   ^
+  symbol:   class HandledScreen
+  location: class DrawContextMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:19: error: cannot find symbol
+		Screen s = (Screen) (Object) this;
+		^
+  symbol:   class Screen
+  location: class ScreenMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:19: error: cannot find symbol
+		Screen s = (Screen) (Object) this;
+		            ^
+  symbol:   class Screen
+  location: class ScreenMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:20: error: cannot find symbol
+		if (MinecraftClient.getInstance().world == null) {
+		    ^
+  symbol:   variable MinecraftClient
+  location: class ScreenMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:26: error: package net.minecraft.client.gui.screen does not exist
+		if (s instanceof net.minecraft.client.gui.screen.GameMenuScreen) {
+		                                                ^
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:33: error: cannot find symbol
+		if (self instanceof CreativeInventoryScreen) return;
+		                    ^
+  symbol:   class CreativeInventoryScreen
+  location: class HandledScreenMixin<T>
+  where T is a type-variable:
+    T declared in class HandledScreenMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:38: error: cannot find symbol
+		if (self instanceof InventoryScreen) {
+		                    ^
+  symbol:   class InventoryScreen
+  location: class HandledScreenMixin<T>
+  where T is a type-variable:
+    T declared in class HandledScreenMixin
+/home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:51: error: cannot find symbol
+		for (Slot s : handler.slots) {
+		     ^
+  symbol:   class Slot
+  location: class HandledScreenMixin<T>
+  where T is a type-variable:
+    T declared in class HandledScreenMixin
+370 errors
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///home/runner/work/ZPVP/ZPVP/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava' (registered by plugin class 'org.gradle.api.plugins.JavaBasePlugin').
+> Compilation failed; see the compiler output below.
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Module.java:4: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Module.java:49: error: cannot find symbol
+  	public void onTick(MinecraftClient mc) {}
+  	                   ^
+    symbol:   class MinecraftClient
+    location: class Module
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:3: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:4: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:7: error: cannot find symbol
+  import net.minecraft.util.Formatting;
+                           ^
+    symbol:   class Formatting
+    location: package net.minecraft.util
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:3: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:4: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:17: error: cannot find symbol
+  	protected abstract List<String> lines(MinecraftClient mc);
+  	                                      ^
+    symbol:   class MinecraftClient
+    location: class TextHudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:19: error: cannot find symbol
+  	protected static Text styled(String s) {
+  	                 ^
+    symbol:   class Text
+    location: class TextHudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:29: error: cannot find symbol
+  	public int width(MinecraftClient mc) {
+  	                 ^
+    symbol:   class MinecraftClient
+    location: class TextHudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:36: error: cannot find symbol
+  	public int height(MinecraftClient mc) {
+  	                  ^
+    symbol:   class MinecraftClient
+    location: class TextHudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:41: error: cannot find symbol
+  	protected void draw(DrawContext ctx, MinecraftClient mc) {
+  	                    ^
+    symbol:   class DrawContext
+    location: class TextHudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:41: error: cannot find symbol
+  	protected void draw(DrawContext ctx, MinecraftClient mc) {
+  	                                     ^
+    symbol:   class MinecraftClient
+    location: class TextHudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:31: error: cannot find symbol
+  	public abstract int width(MinecraftClient mc);
+  	                          ^
+    symbol:   class MinecraftClient
+    location: class HudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:33: error: cannot find symbol
+  	public abstract int height(MinecraftClient mc);
+  	                           ^
+    symbol:   class MinecraftClient
+    location: class HudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:35: error: cannot find symbol
+  	protected abstract void draw(DrawContext ctx, MinecraftClient mc);
+  	                             ^
+    symbol:   class DrawContext
+    location: class HudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:35: error: cannot find symbol
+  	protected abstract void draw(DrawContext ctx, MinecraftClient mc);
+  	                                              ^
+    symbol:   class MinecraftClient
+    location: class HudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:41: error: cannot find symbol
+  	public int scaledW(MinecraftClient mc) {
+  	                   ^
+    symbol:   class MinecraftClient
+    location: class HudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:45: error: cannot find symbol
+  	public int scaledH(MinecraftClient mc) {
+  	                   ^
+    symbol:   class MinecraftClient
+    location: class HudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:49: error: cannot find symbol
+  	public void ensurePlaced(int screenW, int screenH, MinecraftClient mc) {
+  	                                                   ^
+    symbol:   class MinecraftClient
+    location: class HudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:54: error: cannot find symbol
+  	public boolean hit(MinecraftClient mc, int mx, int my) {
+  	                   ^
+    symbol:   class MinecraftClient
+    location: class HudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:58: error: cannot find symbol
+  	public void render(DrawContext ctx, MinecraftClient mc) {
+  	                   ^
+    symbol:   class DrawContext
+    location: class HudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModule.java:58: error: cannot find symbol
+  	public void render(DrawContext ctx, MinecraftClient mc) {
+  	                                    ^
+    symbol:   class MinecraftClient
+    location: class HudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:4: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:5: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:23: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) { return List.of("FPS: " + mc.getCurrentFps()); }
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Fps
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:28: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) { return List.of("CPS: " + Clicks.left() + " | " + Clicks.right()); }
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Cps
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:33: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Coordinates
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:41: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Ping
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:54: error: cannot find symbol
+  		@Override public void onTick(MinecraftClient mc) {
+  		                             ^
+    symbol:   class MinecraftClient
+    location: class Speed
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:64: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) { return List.of(String.format(Locale.ROOT, "Speed: %.2f b/s", speed)); }
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Speed
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:69: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Direction
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:79: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Biome
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:88: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Server
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:96: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Memory
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:107: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) { return List.of(LocalTime.now().format(FMT)); }
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Clock
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:115: error: cannot find symbol
+  		private static java.util.List<StatusEffectInstance> effects(MinecraftClient mc) {
+  		                                                            ^
+    symbol:   class MinecraftClient
+    location: class Potions
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:115: error: cannot find symbol
+  		private static java.util.List<StatusEffectInstance> effects(MinecraftClient mc) {
+  		                              ^
+    symbol:   class StatusEffectInstance
+    location: class Potions
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:120: error: cannot find symbol
+  		@Override public int width(MinecraftClient mc) {
+  		                           ^
+    symbol:   class MinecraftClient
+    location: class Potions
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:126: error: cannot find symbol
+  		@Override public int height(MinecraftClient mc) { return Math.max(1, effects(mc).size()) * ROW + 4; }
+  		                            ^
+    symbol:   class MinecraftClient
+    location: class Potions
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:128: error: cannot find symbol
+  		private static String label(StatusEffectInstance e) {
+  		                            ^
+    symbol:   class StatusEffectInstance
+    location: class Potions
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:132: error: cannot find symbol
+  		private static String time(StatusEffectInstance e) {
+  		                           ^
+    symbol:   class StatusEffectInstance
+    location: class Potions
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:138: error: cannot find symbol
+  		@Override protected void draw(DrawContext ctx, MinecraftClient mc) {
+  		                              ^
+    symbol:   class DrawContext
+    location: class Potions
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:138: error: cannot find symbol
+  		@Override protected void draw(DrawContext ctx, MinecraftClient mc) {
+  		                                               ^
+    symbol:   class MinecraftClient
+    location: class Potions
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:164: error: cannot find symbol
+  		@Override public int width(MinecraftClient mc) { return 120; }
+  		                           ^
+    symbol:   class MinecraftClient
+    location: class ModuleList
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:165: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class ModuleList
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:179: error: cannot find symbol
+  		@Override public int width(MinecraftClient mc) { return 66; }
+  		                           ^
+    symbol:   class MinecraftClient
+    location: class Keystrokes
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:180: error: cannot find symbol
+  		@Override public int height(MinecraftClient mc) { return 62; }
+  		                            ^
+    symbol:   class MinecraftClient
+    location: class Keystrokes
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:182: error: cannot find symbol
+  		@Override protected void draw(DrawContext ctx, MinecraftClient mc) {
+  		                              ^
+    symbol:   class DrawContext
+    location: class Keystrokes
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:182: error: cannot find symbol
+  		@Override protected void draw(DrawContext ctx, MinecraftClient mc) {
+  		                                               ^
+    symbol:   class MinecraftClient
+    location: class Keystrokes
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:192: error: cannot find symbol
+  		private void key(DrawContext ctx, MinecraftClient mc, String label, boolean down, int x, int y, int w, int h) {
+  		                 ^
+    symbol:   class DrawContext
+    location: class Keystrokes
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:192: error: cannot find symbol
+  		private void key(DrawContext ctx, MinecraftClient mc, String label, boolean down, int x, int y, int w, int h) {
+  		                                  ^
+    symbol:   class MinecraftClient
+    location: class Keystrokes
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:198: error: cannot find symbol
+  		private static void UI_fill(DrawContext ctx, int x, int y, int w, int h, boolean down) {
+  		                            ^
+    symbol:   class DrawContext
+    location: class Keystrokes
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:204: error: cannot find symbol
+  		private static final EquipmentSlot[] SLOTS = {
+  		                     ^
+    symbol:   class EquipmentSlot
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+  		private static final EquipmentSlot[] ARMOR = {EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET};
+  		                     ^
+    symbol:   class EquipmentSlot
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:221: error: cannot find symbol
+  		@Override public int width(MinecraftClient mc) { return style == 1 ? 4 * SLOT + 6 : 52; }
+  		                           ^
+    symbol:   class MinecraftClient
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:222: error: cannot find symbol
+  		@Override public int height(MinecraftClient mc) { return style == 1 ? SLOT + 6 : SLOTS.length * 18 + 2; }
+  		                            ^
+    symbol:   class MinecraftClient
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:224: error: cannot find symbol
+  		@Override protected void draw(DrawContext ctx, MinecraftClient mc) {
+  		                              ^
+    symbol:   class DrawContext
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:224: error: cannot find symbol
+  		@Override protected void draw(DrawContext ctx, MinecraftClient mc) {
+  		                                               ^
+    symbol:   class MinecraftClient
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:228: error: cannot find symbol
+  		private void drawClassic(DrawContext ctx, MinecraftClient mc) {
+  		                         ^
+    symbol:   class DrawContext
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:228: error: cannot find symbol
+  		private void drawClassic(DrawContext ctx, MinecraftClient mc) {
+  		                                          ^
+    symbol:   class MinecraftClient
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:244: error: cannot find symbol
+  		private void drawSlots(DrawContext ctx, MinecraftClient mc) {
+  		                       ^
+    symbol:   class DrawContext
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:244: error: cannot find symbol
+  		private void drawSlots(DrawContext ctx, MinecraftClient mc) {
+  		                                        ^
+    symbol:   class MinecraftClient
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:4: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:19: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Reach
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:27: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) { return List.of("Combo: " + CombatTracker.combo); }
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Combo
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:32: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Target
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:44: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Rotation
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:53: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Light
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:61: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Day
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:69: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Players
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:77: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Health
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:85: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Hunger
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:93: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Saturation
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:101: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class ItemCount
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:116: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class HeldItem
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:126: error: cannot find symbol
+  		@Override protected List<String> lines(MinecraftClient mc) {
+  		                                       ^
+    symbol:   class MinecraftClient
+    location: class Session
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:7: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:20: error: cannot find symbol
+  		@Override public void onTick(MinecraftClient mc) {
+  		                             ^
+    symbol:   class MinecraftClient
+    location: class ToggleSprint
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:36: error: cannot find symbol
+  		@Override public void onTick(MinecraftClient mc) {
+  		                             ^
+    symbol:   class MinecraftClient
+    location: class Zoom
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:63: error: cannot find symbol
+  		private static <E extends Enum<E>> void setEnumOrdinal(SimpleOption<E> opt, int ordinal) {
+  		                                                       ^
+    symbol:   class SimpleOption
+    location: class FpsBoost
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:124: error: cannot find symbol
+  		@Override public void onTick(MinecraftClient mc) {
+  		                             ^
+    symbol:   class MinecraftClient
+    location: class FreelookMod
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:138: error: cannot find symbol
+  		@Override public void onTick(MinecraftClient mc) {
+  		                             ^
+    symbol:   class MinecraftClient
+    location: class Fullbright
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:3: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:10: error: cannot find symbol
+  	private static Perspective saved = Perspective.FIRST_PERSON;
+  	               ^
+    symbol:   class Perspective
+    location: class Freelook
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:14: error: cannot find symbol
+  	public static void start(MinecraftClient mc) {
+  	                         ^
+    symbol:   class MinecraftClient
+    location: class Freelook
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:23: error: cannot find symbol
+  	public static void stop(MinecraftClient mc) {
+  	                        ^
+    symbol:   class MinecraftClient
+    location: class Freelook
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Clicks.java:3: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Clicks.java:18: error: cannot find symbol
+  	public static void poll(MinecraftClient mc) {
+  	                        ^
+    symbol:   class MinecraftClient
+    location: class Clicks
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:3: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:4: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:41: error: cannot find symbol
+  	public static void drawBackdrop(DrawContext ctx, int w, int h) {
+  	                                ^
+    symbol:   class DrawContext
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:110: error: cannot find symbol
+  	private boolean menuButton(DrawContext ctx, String label, String[] icon, int x, int y, int w, int h, int mx, int my, boolean accent) {
+  	                           ^
+    symbol:   class DrawContext
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:123: error: cannot find symbol
+  	protected void draw(DrawContext ctx, int mx, int my) {
+  	                    ^
+    symbol:   class DrawContext
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:14: error: cannot find symbol
+  	protected final Screen parent;
+  	                ^
+    symbol:   class Screen
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:18: error: cannot find symbol
+  	protected ZScreen(Text title, Screen parent) {
+  	                  ^
+    symbol:   class Text
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:18: error: cannot find symbol
+  	protected ZScreen(Text title, Screen parent) {
+  	                              ^
+    symbol:   class Screen
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:39: error: cannot find symbol
+  	public void render(DrawContext ctx, int mouseX, int mouseY, float delta) {
+  	                   ^
+    symbol:   class DrawContext
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:55: error: cannot find symbol
+  	protected abstract void draw(DrawContext ctx, int mx, int my);
+  	                             ^
+    symbol:   class DrawContext
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:62: error: cannot find symbol
+  	protected boolean button(DrawContext ctx, String label, int x, int y, int w, int h, int mx, int my, boolean selected) {
+  	                         ^
+    symbol:   class DrawContext
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:71: error: cannot find symbol
+  	protected void applyBlur(DrawContext context) {
+  	                         ^
+    symbol:   class DrawContext
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:76: error: cannot find symbol
+  	public void renderBackground(DrawContext context, int mouseX, int mouseY, float delta) {
+  	                             ^
+    symbol:   class DrawContext
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:4: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:42: error: cannot find symbol
+  	public static void rrect(DrawContext ctx, int x, int y, int w, int h, int color) {
+  	                         ^
+    symbol:   class DrawContext
+    location: class UI
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:48: error: cannot find symbol
+  	public static void rbox(DrawContext ctx, int x, int y, int w, int h, int fill, int border) {
+  	                        ^
+    symbol:   class DrawContext
+    location: class UI
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:53: error: cannot find symbol
+  	public static void iconCentered(DrawContext ctx, int cx, int cy, String[] bmp, int color, int scale) {
+  	                                ^
+    symbol:   class DrawContext
+    location: class UI
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:58: error: cannot find symbol
+  	public static void icon(DrawContext ctx, int x, int y, String[] bmp, int color, int scale) {
+  	                        ^
+    symbol:   class DrawContext
+    location: class UI
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:66: error: cannot find symbol
+  	public static void outline(DrawContext ctx, int x, int y, int w, int h, int color) {
+  	                           ^
+    symbol:   class DrawContext
+    location: class UI
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:73: error: cannot find symbol
+  	public static void centeredText(DrawContext ctx, TextRenderer tr, String text, int cx, int y, int color) {
+  	                                ^
+    symbol:   class DrawContext
+    location: class UI
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:73: error: cannot find symbol
+  	public static void centeredText(DrawContext ctx, TextRenderer tr, String text, int cx, int y, int color) {
+  	                                                 ^
+    symbol:   class TextRenderer
+    location: class UI
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:77: error: cannot find symbol
+  	public static void scaledText(DrawContext ctx, TextRenderer tr, String text, float x, float y, float scale, int color) {
+  	                              ^
+    symbol:   class DrawContext
+    location: class UI
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:77: error: cannot find symbol
+  	public static void scaledText(DrawContext ctx, TextRenderer tr, String text, float x, float y, float scale, int color) {
+  	                                               ^
+    symbol:   class TextRenderer
+    location: class UI
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:86: error: cannot find symbol
+  	public static void scaledCentered(DrawContext ctx, TextRenderer tr, String text, int cx, float y, float scale, int color) {
+  	                                  ^
+    symbol:   class DrawContext
+    location: class UI
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:86: error: cannot find symbol
+  	public static void scaledCentered(DrawContext ctx, TextRenderer tr, String text, int cx, float y, float scale, int color) {
+  	                                                   ^
+    symbol:   class TextRenderer
+    location: class UI
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:5: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:16: error: cannot find symbol
+  	public HudEditorScreen(Screen parent) {
+  	                       ^
+    symbol:   class Screen
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:21: error: cannot find symbol
+  	protected void draw(DrawContext ctx, int mx, int my) {
+  	                    ^
+    symbol:   class DrawContext
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:7: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:31: error: cannot find symbol
+  	private TextFieldWidget search;
+  	        ^
+    symbol:   class TextFieldWidget
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:38: error: cannot find symbol
+  	public ClickGuiScreen(Screen parent) {
+  	                      ^
+    symbol:   class Screen
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:113: error: cannot find symbol
+  	protected void draw(DrawContext ctx, int rawMx, int rawMy) {
+  	                    ^
+    symbol:   class DrawContext
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:127: error: cannot find symbol
+  	private void drawMenu(DrawContext ctx, int mx, int my) {
+  	                      ^
+    symbol:   class DrawContext
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:198: error: cannot find symbol
+  	private void drawCard(DrawContext ctx, TextRenderer tr, Module m, int x, int y, int cw, int mx, int my) {
+  	                      ^
+    symbol:   class DrawContext
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:198: error: cannot find symbol
+  	private void drawCard(DrawContext ctx, TextRenderer tr, Module m, int x, int y, int cw, int mx, int my) {
+  	                                       ^
+    symbol:   class TextRenderer
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:225: error: cannot find symbol
+  	private void drawSettings(DrawContext ctx, TextRenderer tr, int mx, int my) {
+  	                          ^
+    symbol:   class DrawContext
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:225: error: cannot find symbol
+  	private void drawSettings(DrawContext ctx, TextRenderer tr, int mx, int my) {
+  	                                           ^
+    symbol:   class TextRenderer
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:257: error: cannot find symbol
+  	private boolean small(DrawContext ctx, TextRenderer tr, String label, int x, int y, int w, int h, int mx, int my, boolean active) {
+  	                      ^
+    symbol:   class DrawContext
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:257: error: cannot find symbol
+  	private boolean small(DrawContext ctx, TextRenderer tr, String label, int x, int y, int w, int h, int mx, int my, boolean active) {
+  	                                       ^
+    symbol:   class TextRenderer
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Logo.java:3: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Logo.java:56: error: cannot find symbol
+  	public static void draw(DrawContext ctx, int cx, int top, int targetWidth) {
+  	                        ^
+    symbol:   class DrawContext
+    location: class Logo
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/HudRenderer.java:6: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/HudRenderer.java:7: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/HudRenderer.java:12: error: cannot find symbol
+  	public static void render(DrawContext ctx) {
+  	                          ^
+    symbol:   class DrawContext
+    location: class HudRenderer
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:4: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:6: error: cannot find symbol
+  import net.minecraft.util.ActionResult;
+                           ^
+    symbol:   class ActionResult
+    location: package net.minecraft.util
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:33: error: cannot find symbol
+  	public static void tick(MinecraftClient mc) {
+  	                        ^
+    symbol:   class MinecraftClient
+    location: class CombatTracker
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:12: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:15: error: cannot find symbol
+  import net.minecraft.util.Identifier;
+                           ^
+    symbol:   class Identifier
+    location: package net.minecraft.util
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:24: error: cannot find symbol
+  	public static KeyBinding menuKey;
+  	              ^
+    symbol:   class KeyBinding
+    location: class ZPVP
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:25: error: cannot find symbol
+  	public static KeyBinding zoomKey;
+  	              ^
+    symbol:   class KeyBinding
+    location: class ZPVP
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:26: error: cannot find symbol
+  	public static KeyBinding freelookKey;
+  	              ^
+    symbol:   class KeyBinding
+    location: class ZPVP
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:52: error: cannot find symbol
+  	private void onTick(MinecraftClient mc) {
+  	                    ^
+    symbol:   class MinecraftClient
+    location: class ZPVP
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:5: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:7: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:21: error: cannot find symbol
+  	private void zpvp$style(DrawContext ctx, int mouseX, int mouseY, float delta, CallbackInfo ci) {
+  	                        ^
+    symbol:   class DrawContext
+    location: class PressableWidgetMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/EntityMixin.java:4: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:5: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:16: error: cannot find symbol
+  	private Screen zpvp$replaceTitle(Screen screen) {
+  	                                 ^
+    symbol:   class Screen
+    location: class MinecraftClientMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:16: error: cannot find symbol
+  	private Screen zpvp$replaceTitle(Screen screen) {
+  	        ^
+    symbol:   class Screen
+    location: class MinecraftClientMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/DrawContextMixin.java:4: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/DrawContextMixin.java:5: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:5: error: cannot find symbol
+  import net.minecraft.client.MinecraftClient;
+                             ^
+    symbol:   class MinecraftClient
+    location: package net.minecraft.client
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:6: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:17: error: cannot find symbol
+  	private void zpvp$background(DrawContext ctx, int mouseX, int mouseY, float delta, CallbackInfo ci) {
+  	                             ^
+    symbol:   class DrawContext
+    location: class ScreenMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:6: error: cannot find symbol
+  import net.minecraft.client.gui.DrawContext;
+                                 ^
+    symbol:   class DrawContext
+    location: package net.minecraft.client.gui
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:29: error: cannot find symbol
+  	private void zpvp$panel(DrawContext ctx, int mouseX, int mouseY, float delta, CallbackInfo ci) {
+  	                        ^
+    symbol:   class DrawContext
+    location: class HandledScreenMixin<T>
+    where T is a type-variable:
+      T declared in class HandledScreenMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:20: error: cannot find symbol
+  		return Text.literal(s.toUpperCase(Locale.ROOT)).formatted(Formatting.BOLD);
+  		                                                          ^
+    symbol:   variable Formatting
+    location: class TextHudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:20: error: cannot find symbol
+  		return Text.literal(s.toUpperCase(Locale.ROOT)).formatted(Formatting.BOLD);
+  		       ^
+    symbol:   variable Text
+    location: class TextHudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:45: error: cannot find symbol
+  			Text t = styled(s);
+  			^
+    symbol:   class Text
+    location: class TextHudModule
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:43: error: cannot find symbol
+  				PlayerListEntry e = mc.getNetworkHandler().getPlayerListEntry(mc.player.getUuid());
+  				^
+    symbol:   class PlayerListEntry
+    location: class Ping
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:122: error: cannot find symbol
+  			for (StatusEffectInstance e : effects(mc)) w = Math.max(w, 26 + mc.textRenderer.getWidth(label(e)) + 6);
+  			     ^
+    symbol:   class StatusEffectInstance
+    location: class Potions
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:141: error: cannot find symbol
+  				ctx.drawText(mc.textRenderer, net.minecraft.text.Text.literal("NO EFFECTS").formatted(net.minecraft.util.Formatting.BOLD), 4, 7, 0xFF8C8C8C, true);
+  				                                                                                                        ^
+    symbol:   class Formatting
+    location: package net.minecraft.util
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:145: error: cannot find symbol
+  			for (StatusEffectInstance e : list) {
+  			     ^
+    symbol:   class StatusEffectInstance
+    location: class Potions
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:149: error: cannot find symbol
+  					net.minecraft.util.Identifier id = key.get().getValue();
+  					                  ^
+    symbol:   class Identifier
+    location: package net.minecraft.util
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:150: error: cannot find symbol
+  					net.minecraft.util.Identifier sprite = net.minecraft.util.Identifier.of(id.getNamespace(), "mob_effect/" + id.getPath());
+  					                  ^
+    symbol:   class Identifier
+    location: package net.minecraft.util
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:150: error: cannot find symbol
+  					net.minecraft.util.Identifier sprite = net.minecraft.util.Identifier.of(id.getNamespace(), "mob_effect/" + id.getPath());
+  					                                                         ^
+    symbol:   class Identifier
+    location: package net.minecraft.util
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:153: error: cannot find symbol
+  				ctx.drawText(mc.textRenderer, net.minecraft.text.Text.literal(label(e)).formatted(net.minecraft.util.Formatting.BOLD), 26, y + 3, 0xFFFFFFFF, true);
+  				                                                                                                    ^
+    symbol:   class Formatting
+    location: package net.minecraft.util
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+  			EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET, EquipmentSlot.MAINHAND
+  			^
+    symbol:   variable EquipmentSlot
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+  			EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET, EquipmentSlot.MAINHAND
+  			                    ^
+    symbol:   variable EquipmentSlot
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+  			EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET, EquipmentSlot.MAINHAND
+  			                                         ^
+    symbol:   variable EquipmentSlot
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+  			EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET, EquipmentSlot.MAINHAND
+  			                                                             ^
+    symbol:   variable EquipmentSlot
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:205: error: cannot find symbol
+  			EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET, EquipmentSlot.MAINHAND
+  			                                                                                 ^
+    symbol:   variable EquipmentSlot
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+  		private static final EquipmentSlot[] ARMOR = {EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET};
+  		                                              ^
+    symbol:   variable EquipmentSlot
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+  		private static final EquipmentSlot[] ARMOR = {EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET};
+  		                                                                  ^
+    symbol:   variable EquipmentSlot
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+  		private static final EquipmentSlot[] ARMOR = {EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET};
+  		                                                                                       ^
+    symbol:   variable EquipmentSlot
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:207: error: cannot find symbol
+  		private static final EquipmentSlot[] ARMOR = {EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET};
+  		                                                                                                           ^
+    symbol:   variable EquipmentSlot
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:232: error: cannot find symbol
+  				ItemStack stack = mc.player.getEquippedStack(SLOTS[i]);
+  				^
+    symbol:   class ItemStack
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:258: error: cannot find symbol
+  				ItemStack stack = mc.player == null ? ItemStack.EMPTY : mc.player.getEquippedStack(ARMOR[i]);
+  				^
+    symbol:   class ItemStack
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:258: error: cannot find symbol
+  				ItemStack stack = mc.player == null ? ItemStack.EMPTY : mc.player.getEquippedStack(ARMOR[i]);
+  				                                      ^
+    symbol:   variable ItemStack
+    location: class ArmorHud
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:33: error: cannot find symbol
+  			Entity t = mc.targetedEntity;
+  			^
+    symbol:   class Entity
+    location: class Target
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:34: error: cannot find symbol
+  			if (t instanceof LivingEntity le) {
+  			                 ^
+    symbol:   class LivingEntity
+    location: class Target
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:52: error: cannot find symbol
+  				MinecraftClient.getInstance().options.getFov().setValue(savedFov);
+  				^
+    symbol:   variable MinecraftClient
+    location: class Zoom
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:69: error: cannot find symbol
+  			GameOptions o = MinecraftClient.getInstance().options;
+  			^
+    symbol:   class GameOptions
+    location: class FpsBoost
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:69: error: cannot find symbol
+  			GameOptions o = MinecraftClient.getInstance().options;
+  			                ^
+    symbol:   variable MinecraftClient
+    location: class FpsBoost
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:93: error: cannot find symbol
+  			GameOptions o = MinecraftClient.getInstance().options;
+  			^
+    symbol:   class GameOptions
+    location: class FpsBoost
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:93: error: cannot find symbol
+  			GameOptions o = MinecraftClient.getInstance().options;
+  			                ^
+    symbol:   variable MinecraftClient
+    location: class FpsBoost
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:131: error: cannot find symbol
+  			Freelook.stop(MinecraftClient.getInstance());
+  			              ^
+    symbol:   variable MinecraftClient
+    location: class FreelookMod
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:140: error: cannot find symbol
+  			StatusEffectInstance cur = mc.player.getStatusEffect(StatusEffects.NIGHT_VISION);
+  			^
+    symbol:   class StatusEffectInstance
+    location: class Fullbright
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:140: error: cannot find symbol
+  			StatusEffectInstance cur = mc.player.getStatusEffect(StatusEffects.NIGHT_VISION);
+  			                                                     ^
+    symbol:   variable StatusEffects
+    location: class Fullbright
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:142: error: cannot find symbol
+  				mc.player.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 1200, 0, true, false, false));
+  				                              ^
+    symbol:   class StatusEffectInstance
+    location: class Fullbright
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:142: error: cannot find symbol
+  				mc.player.addStatusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 1200, 0, true, false, false));
+  				                                                   ^
+    symbol:   variable StatusEffects
+    location: class Fullbright
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:147: error: cannot find symbol
+  			var p = MinecraftClient.getInstance().player;
+  			        ^
+    symbol:   variable MinecraftClient
+    location: class Fullbright
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:148: error: cannot find symbol
+  			if (p != null) p.removeStatusEffect(StatusEffects.NIGHT_VISION);
+  			                                    ^
+    symbol:   variable StatusEffects
+    location: class Fullbright
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:10: error: cannot find symbol
+  	private static Perspective saved = Perspective.FIRST_PERSON;
+  	                                   ^
+    symbol:   variable Perspective
+    location: class Freelook
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:20: error: cannot find symbol
+  		mc.options.setPerspective(Perspective.THIRD_PERSON_BACK);
+  		                          ^
+    symbol:   variable Perspective
+    location: class Freelook
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:25: error: cannot find symbol
+  		long w = client.getWindow().getHandle();
+  		         ^
+    symbol:   variable client
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:40: error: cannot find symbol
+  		long w = client.getWindow().getHandle();
+  		         ^
+    symbol:   variable client
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:50: error: cannot find symbol
+  		ctx.fill(0, 0, width, height, client.world == null ? 0xFF050506 : 0xC8000000);
+  		               ^
+    symbol:   variable width
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:50: error: cannot find symbol
+  		ctx.fill(0, 0, width, height, client.world == null ? 0xFF050506 : 0xC8000000);
+  		                      ^
+    symbol:   variable height
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:50: error: cannot find symbol
+  		ctx.fill(0, 0, width, height, client.world == null ? 0xFF050506 : 0xC8000000);
+  		                              ^
+    symbol:   variable client
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:65: error: cannot find symbol
+  		int tw = textRenderer.getWidth(label);
+  		         ^
+    symbol:   variable textRenderer
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:66: error: cannot find symbol
+  		ctx.drawText(textRenderer, label, x + (w - tw) / 2, y + (h - 8) / 2, selected || hover ? UI.WHITE : 0xFFB8B8B8, false);
+  		             ^
+    symbol:   variable textRenderer
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:87: error: cannot find symbol
+  		client.setScreen(parent);
+  		^
+    symbol:   variable client
+    location: class ZScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:17: error: cannot find symbol
+  		super(Text.literal("ZPVP"), null);
+  		      ^
+    symbol:   variable Text
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:115: error: cannot find symbol
+  		int tw = textRenderer.getWidth(text);
+  		         ^
+    symbol:   variable textRenderer
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:118: error: cannot find symbol
+  		ctx.drawText(textRenderer, text, tx, y + (h - 8) / 2, color, false);
+  		             ^
+    symbol:   variable textRenderer
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:124: error: cannot find symbol
+  		drawBackdrop(ctx, width, height);
+  		                  ^
+    symbol:   variable width
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:124: error: cannot find symbol
+  		drawBackdrop(ctx, width, height);
+  		                         ^
+    symbol:   variable height
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:126: error: cannot find symbol
+  		int cx = width / 2;
+  		         ^
+    symbol:   variable width
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:127: error: cannot find symbol
+  		int top = Math.max(6, height / 2 - 100);
+  		                      ^
+    symbol:   variable height
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:130: error: cannot find symbol
+  		int logoW = Math.min(190, width - 40);
+  		                          ^
+    symbol:   variable width
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:133: error: cannot find symbol
+  		UI.centeredText(ctx, textRenderer, "C L I E N T", cx, top + logoH + 6, UI.GRAY);
+  		                     ^
+    symbol:   variable textRenderer
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:136: error: cannot find symbol
+  		int bw = Math.min(160, width - 40), bh = 20, gap = 4;
+  		                       ^
+    symbol:   variable width
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:139: error: cannot find symbol
+  		if (menuButton(ctx, "Singleplayer", UI.ICON_PERSON, bx, by, bw, bh, mx, my, false)) { client.setScreen(new SelectWorldScreen(this)); return; }
+  		                                                                                                           ^
+    symbol:   class SelectWorldScreen
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:139: error: cannot find symbol
+  		if (menuButton(ctx, "Singleplayer", UI.ICON_PERSON, bx, by, bw, bh, mx, my, false)) { client.setScreen(new SelectWorldScreen(this)); return; }
+  		                                                                                      ^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:141: error: cannot find symbol
+  		if (menuButton(ctx, "Multiplayer", UI.ICON_PEOPLE, bx, by, bw, bh, mx, my, false)) { client.setScreen(new MultiplayerScreen(this)); return; }
+  		                                                                                                          ^
+    symbol:   class MultiplayerScreen
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:141: error: cannot find symbol
+  		if (menuButton(ctx, "Multiplayer", UI.ICON_PEOPLE, bx, by, bw, bh, mx, my, false)) { client.setScreen(new MultiplayerScreen(this)); return; }
+  		                                                                                     ^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:143: error: cannot find symbol
+  		if (menuButton(ctx, "Mods", UI.ICON_STAR, bx, by, bw, bh, mx, my, true)) { client.setScreen(new ClickGuiScreen(this)); return; }
+  		                                                                           ^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:145: error: cannot find symbol
+  		if (menuButton(ctx, "HUD Editor", UI.ICON_MOVE, bx, by, bw, bh, mx, my, false)) { client.setScreen(new HudEditorScreen(this)); return; }
+  		                                                                                  ^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:147: error: cannot find symbol
+  		if (menuButton(ctx, "Options", UI.ICON_GEAR, bx, by, bw, bh, mx, my, false)) { client.setScreen(new OptionsScreen(this, client.options)); return; }
+  		                                                                                                    ^
+    symbol:   class OptionsScreen
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:147: error: cannot find symbol
+  		if (menuButton(ctx, "Options", UI.ICON_GEAR, bx, by, bw, bh, mx, my, false)) { client.setScreen(new OptionsScreen(this, client.options)); return; }
+  		                                                                                                                        ^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:147: error: cannot find symbol
+  		if (menuButton(ctx, "Options", UI.ICON_GEAR, bx, by, bw, bh, mx, my, false)) { client.setScreen(new OptionsScreen(this, client.options)); return; }
+  		                                                                               ^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:149: error: cannot find symbol
+  		int quitY = Math.max(by + bh + 10, height - 30);
+  		                                   ^
+    symbol:   variable height
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:150: error: cannot find symbol
+  		if (menuButton(ctx, "Quit Game", null, bx, quitY, bw, bh, mx, my, false)) { client.scheduleStop(); return; }
+  		                                                                            ^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:156: error: cannot find symbol
+  		int tx = width - 4 - (tb + tg) * icons.length + tg;
+  		         ^
+    symbol:   variable width
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:167: error: cannot find symbol
+  					case 0 -> client.setScreen(new ClickGuiScreen(this));
+  					          ^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:168: error: cannot find symbol
+  					case 1 -> client.setScreen(new HudEditorScreen(this));
+  					          ^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:169: error: cannot find symbol
+  					case 2 -> client.setScreen(new MultiplayerScreen(this));
+  					                               ^
+    symbol:   class MultiplayerScreen
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:169: error: cannot find symbol
+  					case 2 -> client.setScreen(new MultiplayerScreen(this));
+  					          ^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:170: error: cannot find symbol
+  					default -> client.setScreen(new OptionsScreen(this, client.options));
+  					                                ^
+    symbol:   class OptionsScreen
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:170: error: cannot find symbol
+  					default -> client.setScreen(new OptionsScreen(this, client.options));
+  					                                                    ^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:170: error: cannot find symbol
+  					default -> client.setScreen(new OptionsScreen(this, client.options));
+  					           ^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:176: error: cannot find symbol
+  		String name = client.getSession().getUsername();
+  		              ^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:177: error: cannot find symbol
+  		int cw = textRenderer.getWidth(name) + 34;
+  		         ^
+    symbol:   variable textRenderer
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:184: error: cannot find symbol
+  		ctx.drawText(textRenderer, name, chipX + 30, 4 + (tb - 8) / 2, UI.WHITE, false);
+  		             ^
+    symbol:   variable textRenderer
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:185: error: cannot find symbol
+  		if (hovered != null) UI.centeredText(ctx, textRenderer, hovered, hoveredX, 4 + tb + 4, UI.WHITE);
+  		                                          ^
+    symbol:   variable textRenderer
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:187: error: cannot find symbol
+  		ctx.drawText(textRenderer, "ZPVP 1.0.0  -  Minecraft 1.21.11", 6, height - 12, UI.GRAY, false);
+  		             ^
+    symbol:   variable textRenderer
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:187: error: cannot find symbol
+  		ctx.drawText(textRenderer, "ZPVP 1.0.0  -  Minecraft 1.21.11", 6, height - 12, UI.GRAY, false);
+  		                                                                  ^
+    symbol:   variable height
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:192: error: cannot find symbol
+  		client.setScreen(new ClickGuiScreen(this));
+  		^
+    symbol:   variable client
+    location: class ZTitleScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:17: error: cannot find symbol
+  		super(Text.literal("HUD Editor"), parent);
+  		      ^
+    symbol:   variable Text
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:22: error: cannot find symbol
+  		int w = width, h = height;
+  		        ^
+    symbol:   variable width
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:22: error: cannot find symbol
+  		int w = width, h = height;
+  		                   ^
+    symbol:   variable height
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:25: error: cannot find symbol
+  		UI.centeredText(ctx, textRenderer, "HUD EDITOR  -  drag mods to move them", w / 2, 8, UI.WHITE);
+  		                     ^
+    symbol:   variable textRenderer
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:26: error: cannot find symbol
+  		UI.centeredText(ctx, textRenderer, "Scale and background are in the mod menu", w / 2, 20, UI.GRAY);
+  		                     ^
+    symbol:   variable textRenderer
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:33: error: cannot find symbol
+  			m.ensurePlaced(w, h, client);
+  			                     ^
+    symbol:   variable client
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:34: error: cannot find symbol
+  			m.render(ctx, client);
+  			              ^
+    symbol:   variable client
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:35: error: cannot find symbol
+  			UI.outline(ctx, m.x - 1, m.y - 1, m.scaledW(client) + 2, m.scaledH(client) + 2, m == dragging ? UI.RED : 0xFF777777);
+  			                                            ^
+    symbol:   variable client
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:35: error: cannot find symbol
+  			UI.outline(ctx, m.x - 1, m.y - 1, m.scaledW(client) + 2, m.scaledH(client) + 2, m == dragging ? UI.RED : 0xFF777777);
+  			                                                                   ^
+    symbol:   variable client
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:37: error: cannot find symbol
+  		if (!any) UI.centeredText(ctx, textRenderer, "No HUD mods are enabled - turn some on in the mod menu", w / 2, h / 2, UI.GRAY);
+  		                               ^
+    symbol:   variable textRenderer
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:42: error: cannot find symbol
+  				if (m.isEnabled() && m.hit(client, mx, my)) {
+  				                           ^
+    symbol:   variable client
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:52: error: cannot find symbol
+  			int sw = dragging.scaledW(client), sh = dragging.scaledH(client);
+  			                          ^
+    symbol:   variable client
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:52: error: cannot find symbol
+  			int sw = dragging.scaledW(client), sh = dragging.scaledH(client);
+  			                                                         ^
+    symbol:   variable client
+    location: class HudEditorScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:39: error: cannot find symbol
+  		super(Text.literal("ZPVP"), parent);
+  		      ^
+    symbol:   variable Text
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:43: error: cannot find symbol
+  		double gs = client.getWindow().getScaleFactor();
+  		            ^
+    symbol:   variable client
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:45: error: cannot find symbol
+  		vw = (int) (width / k);
+  		            ^
+    symbol:   variable width
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:46: error: cannot find symbol
+  		vh = (int) (height / k);
+  		            ^
+    symbol:   variable height
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:70: error: cannot find symbol
+  		search = new TextFieldWidget(textRenderer, 0, 0, 10, 10, Text.literal("Search"));
+  		             ^
+    symbol:   class TextFieldWidget
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:70: error: cannot find symbol
+  		search = new TextFieldWidget(textRenderer, 0, 0, 10, 10, Text.literal("Search"));
+  		                             ^
+    symbol:   variable textRenderer
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:70: error: cannot find symbol
+  		search = new TextFieldWidget(textRenderer, 0, 0, 10, 10, Text.literal("Search"));
+  		                                                         ^
+    symbol:   variable Text
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:72: error: cannot find symbol
+  		search.setPlaceholder(Text.literal("SEARCH..."));
+  		                      ^
+    symbol:   variable Text
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:128: error: cannot find symbol
+  		TextRenderer tr = textRenderer;
+  		^
+    symbol:   class TextRenderer
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:128: error: cannot find symbol
+  		TextRenderer tr = textRenderer;
+  		                  ^
+    symbol:   variable textRenderer
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:154: error: cannot find symbol
+  			if (click(cmx, cmy, tx, ty, ew, 28)) { client.setScreen(new HudEditorScreen(this)); return; }
+  			                                       ^
+    symbol:   variable client
+    location: class ClickGuiScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/HudRenderer.java:13: error: cannot find symbol
+  		MinecraftClient mc = MinecraftClient.getInstance();
+  		^
+    symbol:   class MinecraftClient
+    location: class HudRenderer
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/HudRenderer.java:13: error: cannot find symbol
+  		MinecraftClient mc = MinecraftClient.getInstance();
+  		                     ^
+    symbol:   variable MinecraftClient
+    location: class HudRenderer
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:24: error: cannot find symbol
+  				if (entity instanceof LivingEntity) {
+  				                      ^
+    symbol:   class LivingEntity
+    location: class CombatTracker
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:29: error: cannot find symbol
+  			return ActionResult.PASS;
+  			       ^
+    symbol:   variable ActionResult
+    location: class CombatTracker
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:33: error: cannot find symbol
+  		KeyBinding.Category category = KeyBinding.Category.create(Identifier.of(MOD_ID, "main"));
+  		                                                          ^
+    symbol:   variable Identifier
+    location: class ZPVP
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:35: error: cannot find symbol
+  			new KeyBinding("key.zpvp.menu", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_RIGHT_SHIFT, category));
+  			    ^
+    symbol:   class KeyBinding
+    location: class ZPVP
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:34: error: cannot find symbol
+  		menuKey = KeyBindingHelper.registerKeyBinding(
+  		          ^
+    symbol:   variable KeyBindingHelper
+    location: class ZPVP
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:37: error: cannot find symbol
+  			new KeyBinding("key.zpvp.zoom", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_C, category));
+  			    ^
+    symbol:   class KeyBinding
+    location: class ZPVP
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:36: error: cannot find symbol
+  		zoomKey = KeyBindingHelper.registerKeyBinding(
+  		          ^
+    symbol:   variable KeyBindingHelper
+    location: class ZPVP
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:40: error: cannot find symbol
+  			new KeyBinding("key.zpvp.freelook", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_LEFT_ALT, category));
+  			    ^
+    symbol:   class KeyBinding
+    location: class ZPVP
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:39: error: cannot find symbol
+  		freelookKey = KeyBindingHelper.registerKeyBinding(
+  		              ^
+    symbol:   variable KeyBindingHelper
+    location: class ZPVP
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:44: error: cannot find symbol
+  			Identifier.of(MOD_ID, "hud"),
+  			^
+    symbol:   variable Identifier
+    location: class ZPVP
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:23: error: cannot find symbol
+  		if (!(self instanceof ButtonWidget || self instanceof CyclingButtonWidget)) return;
+  		                      ^
+    symbol:   class ButtonWidget
+    location: class PressableWidgetMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:23: error: cannot find symbol
+  		if (!(self instanceof ButtonWidget || self instanceof CyclingButtonWidget)) return;
+  		                                                      ^
+    symbol:   class CyclingButtonWidget
+    location: class PressableWidgetMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:27: error: cannot find symbol
+  		ClickableWidget w = (ClickableWidget) self;
+  		^
+    symbol:   class ClickableWidget
+    location: class PressableWidgetMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:27: error: cannot find symbol
+  		ClickableWidget w = (ClickableWidget) self;
+  		                     ^
+    symbol:   class ClickableWidget
+    location: class PressableWidgetMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:37: error: cannot find symbol
+  		TextRenderer tr = MinecraftClient.getInstance().textRenderer;
+  		^
+    symbol:   class TextRenderer
+    location: class PressableWidgetMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:37: error: cannot find symbol
+  		TextRenderer tr = MinecraftClient.getInstance().textRenderer;
+  		                  ^
+    symbol:   variable MinecraftClient
+    location: class PressableWidgetMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/EntityMixin.java:17: error: cannot find symbol
+  		if (Freelook.active && (Object) this == MinecraftClient.getInstance().player) {
+  		                                        ^
+    symbol:   variable MinecraftClient
+    location: class EntityMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/EntityMixin.java:19: error: cannot find symbol
+  			Freelook.pitch = MathHelper.clamp(Freelook.pitch + (float) dy * 0.15f, -90f, 90f);
+  			                 ^
+    symbol:   variable MathHelper
+    location: class EntityMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:17: error: cannot find symbol
+  		if (screen != null && screen.getClass() == TitleScreen.class && ModuleManager.customMenuEnabled()) {
+  		                                           ^
+    symbol:   class TitleScreen
+    location: class MinecraftClientMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/DrawContextMixin.java:16: error: cannot find symbol
+  		if (InventoryStyle.drawn && MinecraftClient.getInstance().currentScreen instanceof HandledScreen<?>
+  		                            ^
+    symbol:   variable MinecraftClient
+    location: class DrawContextMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/DrawContextMixin.java:16: error: cannot find symbol
+  		if (InventoryStyle.drawn && MinecraftClient.getInstance().currentScreen instanceof HandledScreen<?>
+  		                                                                                   ^
+    symbol:   class HandledScreen
+    location: class DrawContextMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:19: error: cannot find symbol
+  		Screen s = (Screen) (Object) this;
+  		^
+    symbol:   class Screen
+    location: class ScreenMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:19: error: cannot find symbol
+  		Screen s = (Screen) (Object) this;
+  		            ^
+    symbol:   class Screen
+    location: class ScreenMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:20: error: cannot find symbol
+  		if (MinecraftClient.getInstance().world == null) {
+  		    ^
+    symbol:   variable MinecraftClient
+    location: class ScreenMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:33: error: cannot find symbol
+  		if (self instanceof CreativeInventoryScreen) return;
+  		                    ^
+    symbol:   class CreativeInventoryScreen
+    location: class HandledScreenMixin<T>
+    where T is a type-variable:
+      T declared in class HandledScreenMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:38: error: cannot find symbol
+  		if (self instanceof InventoryScreen) {
+  		                    ^
+    symbol:   class InventoryScreen
+    location: class HandledScreenMixin<T>
+    where T is a type-variable:
+      T declared in class HandledScreenMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:51: error: cannot find symbol
+  		for (Slot s : handler.slots) {
+  		     ^
+    symbol:   class Slot
+    location: class HandledScreenMixin<T>
+    where T is a type-variable:
+      T declared in class HandledScreenMixin
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:23: error: method does not override or implement a method from a supertype
+  	@Override
+  	^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:38: error: method does not override or implement a method from a supertype
+  	@Override
+  	^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:70: error: method does not override or implement a method from a supertype
+  	@Override
+  	^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:75: error: method does not override or implement a method from a supertype
+  	@Override
+  	^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:80: error: method does not override or implement a method from a supertype
+  	@Override
+  	^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:85: error: method does not override or implement a method from a supertype
+  	@Override
+  	^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:90: error: method does not override or implement a method from a supertype
+  	@Override
+  	^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:195: error: method does not override or implement a method from a supertype
+  	@Override
+  	^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:264: error: method does not override or implement a method from a supertype
+  	@Override
+  	^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:13: error: cannot find symbol
+  public abstract class ZScreen extends Screen {
+                                        ^
+    symbol: class Screen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:21: error: cannot find symbol
+  public abstract class HandledScreenMixin<T extends ScreenHandler> {
+                                                     ^
+    symbol: class ScreenHandler
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:18: error: cannot find symbol
+  @Mixin(PressableWidget.class)
+         ^
+    symbol: class PressableWidget
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/EntityMixin.java:13: error: cannot find symbol
+  @Mixin(Entity.class)
+         ^
+    symbol: class Entity
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:12: error: cannot find symbol
+  @Mixin(MinecraftClient.class)
+         ^
+    symbol: class MinecraftClient
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/DrawContextMixin.java:12: error: cannot find symbol
+  @Mixin(DrawContext.class)
+         ^
+    symbol: class DrawContext
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/CameraMixin.java:10: error: cannot find symbol
+  @Mixin(Camera.class)
+         ^
+    symbol: class Camera
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:14: error: cannot find symbol
+  @Mixin(Screen.class)
+         ^
+    symbol: class Screen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:20: error: cannot find symbol
+  @Mixin(HandledScreen.class)
+         ^
+    symbol: class HandledScreen
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:18: error: cannot find symbol
+  			if (world.isClient()) {
+  			         ^
+    symbol:   method isClient()
+    location: variable world of type Level
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:19: error: cannot find symbol
+  				double ex = hit != null ? hit.getPos().x : entity.getX();
+  				                             ^
+    symbol:   method getPos()
+    location: variable hit of type EntityHitResult
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:20: error: cannot find symbol
+  				double ey = hit != null ? hit.getPos().y : entity.getEyeY();
+  				                             ^
+    symbol:   method getPos()
+    location: variable hit of type EntityHitResult
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:21: error: cannot find symbol
+  				double ez = hit != null ? hit.getPos().z : entity.getZ();
+  				                             ^
+    symbol:   method getPos()
+    location: variable hit of type EntityHitResult
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/TextHudModule.java:6: error: package net.minecraft.text does not exist
+  import net.minecraft.text.Text;
+                           ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:6: error: package net.minecraft.client.network does not exist
+  import net.minecraft.client.network.PlayerListEntry;
+                                     ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:7: error: package net.minecraft.entity does not exist
+  import net.minecraft.entity.EquipmentSlot;
+                             ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:8: error: package net.minecraft.entity.effect does not exist
+  import net.minecraft.entity.effect.StatusEffectInstance;
+                                    ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:9: error: package net.minecraft.item does not exist
+  import net.minecraft.item.ItemStack;
+                           ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:5: error: package net.minecraft.entity does not exist
+  import net.minecraft.entity.Entity;
+                             ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/MoreHudModules.java:6: error: package net.minecraft.entity does not exist
+  import net.minecraft.entity.LivingEntity;
+                             ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:8: error: package net.minecraft.client.option does not exist
+  import net.minecraft.client.option.GameOptions;
+                                    ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:9: error: package net.minecraft.client.option does not exist
+  import net.minecraft.client.option.SimpleOption;
+                                    ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:10: error: package net.minecraft.entity.effect does not exist
+  import net.minecraft.entity.effect.StatusEffectInstance;
+                                    ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/Features.java:11: error: package net.minecraft.entity.effect does not exist
+  import net.minecraft.entity.effect.StatusEffects;
+                                    ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/Freelook.java:4: error: package net.minecraft.client.option does not exist
+  import net.minecraft.client.option.Perspective;
+                                    ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:4: error: package net.minecraft.client.gui.screen.multiplayer does not exist
+  import net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen;
+                                                    ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:5: error: package net.minecraft.client.gui.screen.option does not exist
+  import net.minecraft.client.gui.screen.option.OptionsScreen;
+                                               ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:6: error: package net.minecraft.client.gui.screen.world does not exist
+  import net.minecraft.client.gui.screen.world.SelectWorldScreen;
+                                              ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZTitleScreen.java:7: error: package net.minecraft.text does not exist
+  import net.minecraft.text.Text;
+                           ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:5: error: package net.minecraft.client.gui.screen does not exist
+  import net.minecraft.client.gui.screen.Screen;
+                                        ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ZScreen.java:6: error: package net.minecraft.text does not exist
+  import net.minecraft.text.Text;
+                           ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/UI.java:3: error: package net.minecraft.client.font does not exist
+  import net.minecraft.client.font.TextRenderer;
+                                  ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:6: error: package net.minecraft.client.gui.screen does not exist
+  import net.minecraft.client.gui.screen.Screen;
+                                        ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/HudEditorScreen.java:7: error: package net.minecraft.text does not exist
+  import net.minecraft.text.Text;
+                           ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:6: error: package net.minecraft.client.font does not exist
+  import net.minecraft.client.font.TextRenderer;
+                                  ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:8: error: package net.minecraft.client.gui.screen does not exist
+  import net.minecraft.client.gui.screen.Screen;
+                                        ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:9: error: package net.minecraft.client.gui.widget does not exist
+  import net.minecraft.client.gui.widget.TextFieldWidget;
+                                        ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ui/ClickGuiScreen.java:10: error: package net.minecraft.text does not exist
+  import net.minecraft.text.Text;
+                           ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/CombatTracker.java:5: error: package net.minecraft.entity does not exist
+  import net.minecraft.entity.LivingEntity;
+                             ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:9: error: package net.fabricmc.fabric.api.client.keybinding.v1 does not exist
+  import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
+                                                     ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:13: error: package net.minecraft.client.option does not exist
+  import net.minecraft.client.option.KeyBinding;
+                                    ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:14: error: package net.minecraft.client.util does not exist
+  import net.minecraft.client.util.InputUtil;
+                                  ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:6: error: package net.minecraft.client.font does not exist
+  import net.minecraft.client.font.TextRenderer;
+                                  ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:8: error: package net.minecraft.client.gui.widget does not exist
+  import net.minecraft.client.gui.widget.ButtonWidget;
+                                        ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:9: error: package net.minecraft.client.gui.widget does not exist
+  import net.minecraft.client.gui.widget.ClickableWidget;
+                                        ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:10: error: package net.minecraft.client.gui.widget does not exist
+  import net.minecraft.client.gui.widget.CyclingButtonWidget;
+                                        ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:11: error: package net.minecraft.client.gui.widget does not exist
+  import net.minecraft.client.gui.widget.PressableWidget;
+                                        ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/EntityMixin.java:5: error: package net.minecraft.entity does not exist
+  import net.minecraft.entity.Entity;
+                             ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/EntityMixin.java:6: error: package net.minecraft.util.math does not exist
+  import net.minecraft.util.math.MathHelper;
+                                ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:6: error: package net.minecraft.client.gui.screen does not exist
+  import net.minecraft.client.gui.screen.Screen;
+                                        ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/MinecraftClientMixin.java:7: error: package net.minecraft.client.gui.screen does not exist
+  import net.minecraft.client.gui.screen.TitleScreen;
+                                        ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/DrawContextMixin.java:6: error: package net.minecraft.client.gui.screen.ingame does not exist
+  import net.minecraft.client.gui.screen.ingame.HandledScreen;
+                                               ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/CameraMixin.java:4: error: package net.minecraft.client.render does not exist
+  import net.minecraft.client.render.Camera;
+                                    ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:7: error: package net.minecraft.client.gui.screen does not exist
+  import net.minecraft.client.gui.screen.Screen;
+                                        ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:7: error: package net.minecraft.client.gui.screen.ingame does not exist
+  import net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen;
+                                               ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:8: error: package net.minecraft.client.gui.screen.ingame does not exist
+  import net.minecraft.client.gui.screen.ingame.HandledScreen;
+                                               ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:9: error: package net.minecraft.client.gui.screen.ingame does not exist
+  import net.minecraft.client.gui.screen.ingame.InventoryScreen;
+                                               ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:10: error: package net.minecraft.screen does not exist
+  import net.minecraft.screen.ScreenHandler;
+                             ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/HandledScreenMixin.java:11: error: package net.minecraft.screen.slot does not exist
+  import net.minecraft.screen.slot.Slot;
+                                  ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:141: error: package net.minecraft.text does not exist
+  				ctx.drawText(mc.textRenderer, net.minecraft.text.Text.literal("NO EFFECTS").formatted(net.minecraft.util.Formatting.BOLD), 4, 7, 0xFF8C8C8C, true);
+  				                                                ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:151: error: package net.minecraft.client.gl does not exist
+  					ctx.drawGuiTexture(net.minecraft.client.gl.RenderPipelines.GUI_TEXTURED, sprite, 4, y + 2, 18, 18);
+  					                                          ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/module/HudModules.java:153: error: package net.minecraft.text does not exist
+  				ctx.drawText(mc.textRenderer, net.minecraft.text.Text.literal(label(e)).formatted(net.minecraft.util.Formatting.BOLD), 26, y + 3, 0xFFFFFFFF, true);
+  				                                                ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:33: error: package KeyBinding does not exist
+  		KeyBinding.Category category = KeyBinding.Category.create(Identifier.of(MOD_ID, "main"));
+  		          ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:33: error: package KeyBinding does not exist
+  		KeyBinding.Category category = KeyBinding.Category.create(Identifier.of(MOD_ID, "main"));
+  		                                         ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:35: error: package InputUtil does not exist
+  			new KeyBinding("key.zpvp.menu", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_RIGHT_SHIFT, category));
+  			                                         ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:37: error: package InputUtil does not exist
+  			new KeyBinding("key.zpvp.zoom", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_C, category));
+  			                                         ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/ZPVP.java:40: error: package InputUtil does not exist
+  			new KeyBinding("key.zpvp.freelook", InputUtil.Type.KEYSYM, GLFW.GLFW_KEY_LEFT_ALT, category));
+  			                                             ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/PressableWidgetMixin.java:24: error: package net.minecraft.client.gui.widget does not exist
+  		if (self instanceof net.minecraft.client.gui.widget.TexturedButtonWidget) return; // recipe book, icon buttons
+  		                                                   ^
+  /home/runner/work/ZPVP/ZPVP/src/main/java/com/zpvp/mixin/ScreenMixin.java:26: error: package net.minecraft.client.gui.screen does not exist
+  		if (s instanceof net.minecraft.client.gui.screen.GameMenuScreen) {
+  		                                                ^
+  370 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 33s
+1 actionable task: 1 executed

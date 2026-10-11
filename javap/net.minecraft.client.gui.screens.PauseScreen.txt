@@ -1,0 +1,11 @@
+Compiled from "PauseScreen.java"
+public class net.minecraft.client.gui.screens.PauseScreen extends net.minecraft.client.gui.screens.Screen {
+  public net.minecraft.client.gui.screens.PauseScreen(boolean);
+  public boolean showsPauseMenu();
+  protected void init();
+  public void tick();
+  public void extractRenderState(net.minecraft.client.gui.GuiGraphicsExtractor, int, int, float);
+  public void extractBackground(net.minecraft.client.gui.GuiGraphicsExtractor, int, int, float);
+  public void onClose();
+  public boolean rendersNowPlayingToast();
+}

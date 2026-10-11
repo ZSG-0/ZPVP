@@ -1,0 +1,11 @@
+Compiled from "OptionsScreen.java"
+public class net.minecraft.client.gui.screens.options.OptionsScreen extends net.minecraft.client.gui.screens.Screen implements net.minecraft.client.gui.screens.options.HasGamemasterPermissionReaction {
+  public static final net.minecraft.network.chat.Component CONTROLS;
+  public net.minecraft.client.gui.screens.options.OptionsScreen(net.minecraft.client.gui.screens.Screen, net.minecraft.client.Options, boolean);
+  protected void init();
+  protected void repositionElements();
+  public void onClose();
+  public net.minecraft.client.gui.screens.Screen getLastScreen();
+  public void removed();
+  public void onGamemasterPermissionChanged(boolean);
+}

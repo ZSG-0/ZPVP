@@ -1,0 +1,6 @@
+Compiled from "HudStatusBarHeightRegistry.java"
+public final class net.fabricmc.fabric.api.client.rendering.v1.hud.HudStatusBarHeightRegistry {
+  public static void addLeft(net.minecraft.resources.Identifier, net.fabricmc.fabric.api.client.rendering.v1.hud.StatusBarHeightProvider);
+  public static void addRight(net.minecraft.resources.Identifier, net.fabricmc.fabric.api.client.rendering.v1.hud.StatusBarHeightProvider);
+  public static int getHeight(net.minecraft.resources.Identifier);
+}

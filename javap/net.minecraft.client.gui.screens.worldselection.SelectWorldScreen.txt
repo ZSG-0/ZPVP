@@ -1,0 +1,13 @@
+Compiled from "SelectWorldScreen.java"
+public class net.minecraft.client.gui.screens.worldselection.SelectWorldScreen extends net.minecraft.client.gui.screens.Screen {
+  public static final net.minecraft.world.level.levelgen.WorldOptions TEST_OPTIONS;
+  protected final net.minecraft.client.gui.screens.Screen lastScreen;
+  protected net.minecraft.client.gui.components.EditBox searchBox;
+  public net.minecraft.client.gui.screens.worldselection.SelectWorldScreen(net.minecraft.client.gui.screens.Screen);
+  protected void init();
+  protected void repositionElements();
+  protected void setInitialFocus();
+  public void onClose();
+  public void updateButtonStatus(net.minecraft.world.level.storage.LevelSummary);
+  public void removed();
+}

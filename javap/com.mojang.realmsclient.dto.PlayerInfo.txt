@@ -1,0 +1,9 @@
+Compiled from "PlayerInfo.java"
+public class com.mojang.realmsclient.dto.PlayerInfo extends com.mojang.realmsclient.dto.ValueObject implements com.mojang.realmsclient.dto.ReflectionBasedSerialization {
+  public final java.lang.String name;
+  public final java.util.UUID uuid;
+  public boolean operator;
+  public final boolean accepted;
+  public final boolean online;
+  public com.mojang.realmsclient.dto.PlayerInfo(java.lang.String, java.util.UUID, boolean, boolean, boolean);
+}

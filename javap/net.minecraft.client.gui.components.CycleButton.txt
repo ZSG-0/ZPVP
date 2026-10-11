@@ -1,0 +1,17 @@
+Compiled from "CycleButton.java"
+public class net.minecraft.client.gui.components.CycleButton<T> extends net.minecraft.client.gui.components.AbstractButton implements net.minecraft.client.gui.components.ResettableOptionWidget {
+  public static final java.util.function.BooleanSupplier DEFAULT_ALT_LIST_SELECTOR;
+  protected void extractContents(net.minecraft.client.gui.GuiGraphicsExtractor, int, int, float);
+  public void onPress(net.minecraft.client.input.InputWithModifiers);
+  public boolean mouseScrolled(double, double, double, double);
+  public void setValue(T);
+  public void resetValue();
+  public T getValue();
+  protected net.minecraft.network.chat.MutableComponent createNarrationMessage();
+  public void updateWidgetNarration(net.minecraft.client.gui.narration.NarrationElementOutput);
+  public net.minecraft.network.chat.MutableComponent createDefaultNarrationMessage();
+  public static <T> net.minecraft.client.gui.components.CycleButton$Builder<T> builder(java.util.function.Function<T, net.minecraft.network.chat.Component>, java.util.function.Supplier<T>);
+  public static <T> net.minecraft.client.gui.components.CycleButton$Builder<T> builder(java.util.function.Function<T, net.minecraft.network.chat.Component>, T);
+  public static net.minecraft.client.gui.components.CycleButton$Builder<java.lang.Boolean> booleanBuilder(net.minecraft.network.chat.Component, net.minecraft.network.chat.Component, boolean);
+  public static net.minecraft.client.gui.components.CycleButton$Builder<java.lang.Boolean> onOffBuilder(boolean);
+}

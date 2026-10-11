@@ -1,0 +1,16 @@
+Compiled from "FoodData.java"
+public class net.minecraft.world.food.FoodData {
+  public net.minecraft.world.food.FoodData();
+  public void eat(int, float);
+  public void eat(net.minecraft.world.food.FoodProperties);
+  public void tick(net.minecraft.server.level.ServerPlayer);
+  public void readAdditionalSaveData(net.minecraft.world.level.storage.ValueInput);
+  public void addAdditionalSaveData(net.minecraft.world.level.storage.ValueOutput);
+  public int getFoodLevel();
+  public boolean hasEnoughFood();
+  public boolean needsFood();
+  public void addExhaustion(float);
+  public float getSaturationLevel();
+  public void setFoodLevel(int);
+  public void setSaturation(float);
+}

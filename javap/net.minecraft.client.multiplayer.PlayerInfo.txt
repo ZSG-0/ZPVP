@@ -1,0 +1,22 @@
+Compiled from "PlayerInfo.java"
+public class net.minecraft.client.multiplayer.PlayerInfo {
+  public net.minecraft.client.multiplayer.PlayerInfo(com.mojang.authlib.GameProfile, boolean);
+  public com.mojang.authlib.GameProfile getProfile();
+  public net.minecraft.network.chat.RemoteChatSession getChatSession();
+  public net.minecraft.network.chat.SignedMessageValidator getMessageValidator();
+  public boolean hasVerifiableChat();
+  protected void setChatSession(net.minecraft.network.chat.RemoteChatSession);
+  protected void clearChatSession(boolean);
+  public net.minecraft.world.level.GameType getGameMode();
+  protected void setGameMode(net.minecraft.world.level.GameType);
+  public int getLatency();
+  protected void setLatency(int);
+  public net.minecraft.world.entity.player.PlayerSkin getSkin();
+  public net.minecraft.world.scores.PlayerTeam getTeam();
+  public void setTabListDisplayName(net.minecraft.network.chat.Component);
+  public net.minecraft.network.chat.Component getTabListDisplayName();
+  public void setShowHat(boolean);
+  public boolean showHat();
+  public void setTabListOrder(int);
+  public int getTabListOrder();
+}

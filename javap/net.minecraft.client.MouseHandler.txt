@@ -1,0 +1,24 @@
+Compiled from "MouseHandler.java"
+public class net.minecraft.client.MouseHandler {
+  public static final long DOUBLE_CLICK_THRESHOLD_MS;
+  protected int lastClickButton;
+  public net.minecraft.client.MouseHandler(net.minecraft.client.Minecraft);
+  public void fillMousePositionDetails(net.minecraft.CrashReportCategory, com.mojang.blaze3d.platform.Window);
+  public void setup(com.mojang.blaze3d.platform.Window);
+  public void handleAccumulatedMovement();
+  public static double getScaledXPos(com.mojang.blaze3d.platform.Window, double);
+  public double getScaledXPos(com.mojang.blaze3d.platform.Window);
+  public static double getScaledYPos(com.mojang.blaze3d.platform.Window, double);
+  public double getScaledYPos(com.mojang.blaze3d.platform.Window);
+  public boolean isLeftPressed();
+  public boolean isMiddlePressed();
+  public boolean isRightPressed();
+  public double xpos();
+  public double ypos();
+  public void setIgnoreFirstMove();
+  public boolean isMouseGrabbed();
+  public void grabMouse();
+  public void releaseMouse();
+  public void cursorEntered();
+  public void drawDebugMouseInfo(net.minecraft.client.gui.Font, net.minecraft.client.gui.GuiGraphicsExtractor);
+}

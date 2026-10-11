@@ -1,0 +1,15 @@
+Compiled from "JoinMultiplayerScreen.java"
+public class net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen extends net.minecraft.client.gui.screens.Screen {
+  protected net.minecraft.client.gui.screens.multiplayer.ServerSelectionList serverSelectionList;
+  public net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen(net.minecraft.client.gui.screens.Screen);
+  protected void init();
+  protected void repositionElements();
+  public void onClose();
+  public void tick();
+  public void removed();
+  public boolean keyPressed(net.minecraft.client.input.KeyEvent);
+  public void join(net.minecraft.client.multiplayer.ServerData);
+  protected void onSelectedChange();
+  public net.minecraft.client.multiplayer.ServerStatusPinger getPinger();
+  public net.minecraft.client.multiplayer.ServerList getServers();
+}
