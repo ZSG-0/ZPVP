@@ -1,0 +1,7 @@
+This is SOURCE CODE, not a finished mod.
+A .zip renamed or converted to .jar will NOT load in Minecraft (it has no compiled classes).
+
+To get the real jar:
+1. Install Java 21
+2. Double-click build.bat  (Mac/Linux: ./build.sh)
+3. Take build/libs/zpvp-1.0.0.jar (not the -sources one) and put it in .minecraft/mods with Fabric API.
